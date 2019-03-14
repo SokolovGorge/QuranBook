@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QuranMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quranMenuBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gYf-PA-c0Z">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXB-tW-CW2">
+                    <rect key="frame" x="282" y="8" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="98a-e4-a2L"/>
+                        <constraint firstAttribute="height" constant="30" id="sgp-uc-031"/>
+                    </constraints>
+                    <state key="normal" image="quranMenuClose"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kI7-aW-J8S">
+                    <rect key="frame" x="27" y="60" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="J76-ig-KlJ"/>
+                        <constraint firstAttribute="width" constant="58" id="uhP-zl-1Xe"/>
+                    </constraints>
+                    <state key="normal" image="quranMenuView"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FH3-Bi-uRa">
+                    <rect key="frame" x="100" y="60" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="8fN-q7-hOn"/>
+                        <constraint firstAttribute="width" constant="58" id="qls-BI-M5u"/>
+                    </constraints>
+                    <state key="normal" image="quranMenuFavotite"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziE-jJ-kpB">
+                    <rect key="frame" x="174" y="60" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="58" id="soU-0Y-lC8"/>
+                        <constraint firstAttribute="height" constant="58" id="ye8-wR-4lp"/>
+                    </constraints>
+                    <state key="normal" image="quranMenuNotice"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nN0-FJ-BEd">
+                    <rect key="frame" x="250" y="60" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="6FD-mG-2DZ"/>
+                        <constraint firstAttribute="width" constant="58" id="saf-eQ-dFP"/>
+                    </constraints>
+                    <state key="normal" image="quranMenuPlay"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Просмотрено" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEd-tN-14a">
+                    <rect key="frame" x="21" y="128" width="70" height="16"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="DOI-yO-Y74"/>
+                        <constraint firstAttribute="height" constant="16" id="KRf-OP-1Fi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="9"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Избранные" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iT1-LQ-cOI">
+                    <rect key="frame" x="94.5" y="128" width="70" height="16"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="Hd8-xO-Com"/>
+                        <constraint firstAttribute="width" constant="70" id="mJn-Ju-dlM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="9"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примечания" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="546-Mf-JGE">
+                    <rect key="frame" x="168.5" y="128" width="70" height="16"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="wPV-UA-E5D"/>
+                        <constraint firstAttribute="width" constant="70" id="xiV-mW-cqT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="9"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Воспроизвести" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTd-MX-b2e">
+                    <rect key="frame" x="240.5" y="128" width="78" height="16"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="1kp-is-Fej"/>
+                        <constraint firstAttribute="width" constant="78" id="hAL-w3-rq6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="9"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FH3-Bi-uRa" firstAttribute="centerY" secondItem="kI7-aW-J8S" secondAttribute="centerY" id="15h-Q4-J9E"/>
+                <constraint firstItem="ziE-jJ-kpB" firstAttribute="centerY" secondItem="FH3-Bi-uRa" secondAttribute="centerY" id="2ow-VE-EDp"/>
+                <constraint firstItem="kI7-aW-J8S" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="4Ll-fE-oST"/>
+                <constraint firstItem="yEd-tN-14a" firstAttribute="top" secondItem="kI7-aW-J8S" secondAttribute="bottom" constant="10" id="4rG-gS-wzg"/>
+                <constraint firstItem="yEd-tN-14a" firstAttribute="centerX" secondItem="kI7-aW-J8S" secondAttribute="centerX" id="BSA-tJ-MgK"/>
+                <constraint firstItem="iT1-LQ-cOI" firstAttribute="centerY" secondItem="yEd-tN-14a" secondAttribute="centerY" id="M30-bi-aaO"/>
+                <constraint firstItem="gYf-PA-c0Z" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="PLb-Fv-Ik6"/>
+                <constraint firstItem="RTd-MX-b2e" firstAttribute="centerX" secondItem="nN0-FJ-BEd" secondAttribute="centerX" id="TXj-W7-rmL"/>
+                <constraint firstItem="546-Mf-JGE" firstAttribute="centerX" secondItem="ziE-jJ-kpB" secondAttribute="centerX" id="Yai-pQ-H3x"/>
+                <constraint firstItem="cXB-tW-CW2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="ZeZ-QH-F4C"/>
+                <constraint firstItem="gYf-PA-c0Z" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="acw-6t-477"/>
+                <constraint firstItem="nN0-FJ-BEd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="250" id="bC6-yJ-5cZ"/>
+                <constraint firstAttribute="trailing" secondItem="cXB-tW-CW2" secondAttribute="trailing" constant="8" id="bfB-D3-36i"/>
+                <constraint firstItem="nN0-FJ-BEd" firstAttribute="centerY" secondItem="ziE-jJ-kpB" secondAttribute="centerY" id="cmu-KW-wuC"/>
+                <constraint firstItem="kI7-aW-J8S" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="27" id="d3a-Ui-esk"/>
+                <constraint firstItem="FH3-Bi-uRa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="100" id="gSb-Pf-xWc"/>
+                <constraint firstItem="RTd-MX-b2e" firstAttribute="centerY" secondItem="546-Mf-JGE" secondAttribute="centerY" id="gpW-eL-Qjp"/>
+                <constraint firstItem="546-Mf-JGE" firstAttribute="centerY" secondItem="iT1-LQ-cOI" secondAttribute="centerY" id="jVj-gx-hKM"/>
+                <constraint firstItem="gYf-PA-c0Z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nXy-rR-g71"/>
+                <constraint firstItem="ziE-jJ-kpB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="174" id="qcL-lZ-aev"/>
+                <constraint firstItem="iT1-LQ-cOI" firstAttribute="centerX" secondItem="FH3-Bi-uRa" secondAttribute="centerX" id="syD-Px-1a8"/>
+                <constraint firstItem="gYf-PA-c0Z" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="zzs-Y6-dUj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="closeButton" destination="cXB-tW-CW2" id="O3R-nj-ker"/>
+                <outlet property="favoriteButton" destination="FH3-Bi-uRa" id="zPm-k2-fFP"/>
+                <outlet property="favoriteConstraint" destination="gSb-Pf-xWc" id="iig-jQ-8mh"/>
+                <outlet property="favoriteLabel" destination="iT1-LQ-cOI" id="j3C-gc-CZg"/>
+                <outlet property="noticeButton" destination="ziE-jJ-kpB" id="dVf-vr-yM6"/>
+                <outlet property="noticeConstraint" destination="qcL-lZ-aev" id="wXY-ii-PG0"/>
+                <outlet property="noticeLabel" destination="546-Mf-JGE" id="25Y-55-yeZ"/>
+                <outlet property="playButton" destination="nN0-FJ-BEd" id="QqP-hd-pGf"/>
+                <outlet property="playConstraint" destination="bC6-yJ-5cZ" id="5HN-6q-Uqp"/>
+                <outlet property="playLabel" destination="RTd-MX-b2e" id="roj-T1-VPf"/>
+                <outlet property="viewButton" destination="kI7-aW-J8S" id="1m6-Ty-OON"/>
+                <outlet property="viewConstraint" destination="d3a-Ui-esk" id="pRJ-x9-nqr"/>
+                <outlet property="viewLabel" destination="yEd-tN-14a" id="Joz-kv-s37"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="quranMenuBackground" width="375" height="230"/>
+        <image name="quranMenuClose" width="19" height="18"/>
+        <image name="quranMenuFavotite" width="58" height="58"/>
+        <image name="quranMenuNotice" width="58" height="58"/>
+        <image name="quranMenuPlay" width="58" height="58"/>
+        <image name="quranMenuView" width="58" height="58"/>
+    </resources>
+</document>

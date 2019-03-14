@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="HBAyaEntity" representedClassName="HBAyaEntity" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="highlights" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HBAyaHighlightEntity" inverseName="aya" inverseEntity="HBAyaHighlightEntity" syncable="YES"/>
+        <relationship name="sura" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HBSuraEntity" inverseName="ayas" inverseEntity="HBSuraEntity" syncable="YES"/>
+    </entity>
+    <entity name="HBAyaExtraEntity" representedClassName="HBAyaExtraEntity" syncable="YES">
+        <attribute name="ayaIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="flagFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="flagView" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="noticeText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suraIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="HBAyaHighlightEntity" representedClassName="HBAyaHighlightEntity" syncable="YES">
+        <attribute name="length" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="aya" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HBAyaEntity" inverseName="highlights" inverseEntity="HBAyaEntity" syncable="YES"/>
+    </entity>
+    <entity name="HBAyaSoundEntity" representedClassName="HBAyaSoundEntity" syncable="YES">
+        <attribute name="ayaIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="suraIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="quran" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HBQuranSoundEntity" inverseName="ayas" inverseEntity="HBQuranSoundEntity" syncable="YES"/>
+    </entity>
+    <entity name="HBQuranBaseEntity" representedClassName="HBQuranBaseEntity" isAbstract="YES" syncable="YES">
+        <attribute name="defValue" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="itemId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="itemType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="attributeValueScalarType" value="HBQuranItemType"/>
+            </userInfo>
+        </attribute>
+        <attribute name="loaded" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_image" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo>
+            <entry key="additionalHeaderFileName" value="HBQuranItemType.h"/>
+        </userInfo>
+    </entity>
+    <entity name="HBQuranImageEntity" representedClassName="HBQuranImageEntity" parentEntity="HBQuranBaseEntity" syncable="YES"/>
+    <entity name="HBQuranItemEntity" representedClassName="HBQuranItemEntity" parentEntity="HBQuranBaseEntity" syncable="YES">
+        <relationship name="suras" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HBSuraEntity" inverseName="quran" inverseEntity="HBSuraEntity" syncable="YES"/>
+    </entity>
+    <entity name="HBQuranSoundEntity" representedClassName="HBQuranSoundEntity" parentEntity="HBQuranBaseEntity" syncable="YES">
+        <attribute name="soundState" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="attributeValueScalarType" value="HBLoadState"/>
+            </userInfo>
+        </attribute>
+        <relationship name="ayas" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HBAyaSoundEntity" inverseName="quran" inverseEntity="HBAyaSoundEntity" syncable="YES"/>
+        <userInfo>
+            <entry key="additionalHeaderFileName" value="HBLoadState.h"/>
+        </userInfo>
+    </entity>
+    <entity name="HBSuraEntity" representedClassName="HBSuraEntity" syncable="YES">
+        <attribute name="countAyas" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ayas" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HBAyaEntity" inverseName="sura" inverseEntity="HBAyaEntity" syncable="YES"/>
+        <relationship name="quran" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HBQuranItemEntity" inverseName="suras" inverseEntity="HBQuranItemEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HBAyaEntity" positionX="-438.953125" positionY="401.30078125" width="128" height="103"/>
+        <element name="HBAyaExtraEntity" positionX="-249.6640625" positionY="228.12109375" width="128" height="118"/>
+        <element name="HBAyaHighlightEntity" positionX="-235.41015625" positionY="476.28125" width="128" height="88"/>
+        <element name="HBAyaSoundEntity" positionX="-75.0390625" positionY="252.2578125" width="128" height="103"/>
+        <element name="HBQuranBaseEntity" positionX="-225.40234375" positionY="-110.9609375" width="128" height="178"/>
+        <element name="HBQuranImageEntity" positionX="-54" positionY="54" width="128" height="43"/>
+        <element name="HBQuranItemEntity" positionX="-431.95703125" positionY="116.08984375" width="128" height="58"/>
+        <element name="HBQuranSoundEntity" positionX="-76.3046875" positionY="138.42578125" width="128" height="73"/>
+        <element name="HBSuraEntity" positionX="-437.48828125" positionY="230.1484375" width="128" height="118"/>
+    </elements>
+</model>

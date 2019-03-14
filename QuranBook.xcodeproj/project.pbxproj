@@ -1,0 +1,1814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		15E9F6D821612E53007BE9F3 /* mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 15E9F6D921612E53007BE9F3 /* Build configuration list for PBXAggregateTarget "mogenerator" */;
+			buildPhases = (
+				15E9F6DC21612E6A007BE9F3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = mogenerator;
+			productName = mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		150E8D9921B4433200908BC9 /* HBMainSettingsPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E8D9821B4433200908BC9 /* HBMainSettingsPresenterImp.m */; };
+		150E8D9C21B446D700908BC9 /* HBMainSettingsRouterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E8D9B21B446D700908BC9 /* HBMainSettingsRouterImp.m */; };
+		150E8DA021B44FFB00908BC9 /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E8D9F21B44FFB00908BC9 /* HBBaseViewController.m */; };
+		150E8DA321B4514000908BC9 /* HBBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E8DA221B4514000908BC9 /* HBBaseTableViewController.m */; };
+		1513FB10217B46B600C89173 /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAF8217B46B400C89173 /* SF-UI-Display-Thin.otf */; };
+		1513FB11217B46B600C89173 /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAF9217B46B400C89173 /* SF-UI-Text-LightItalic.otf */; };
+		1513FB12217B46B600C89173 /* SF-UI-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFA217B46B400C89173 /* SF-UI-Display-Heavy.otf */; };
+		1513FB13217B46B600C89173 /* SF-UI-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFB217B46B400C89173 /* SF-UI-Text-BoldItalic.otf */; };
+		1513FB14217B46B600C89173 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFC217B46B400C89173 /* SF-UI-Text-Regular.otf */; };
+		1513FB15217B46B600C89173 /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFD217B46B400C89173 /* SF-UI-Text-SemiboldItalic.otf */; };
+		1513FB16217B46B600C89173 /* SF-UI-Text-UltrathinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFE217B46B400C89173 /* SF-UI-Text-UltrathinItalic.otf */; };
+		1513FB17217B46B600C89173 /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FAFF217B46B400C89173 /* SF-UI-Display-Medium.otf */; };
+		1513FB18217B46B600C89173 /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB00217B46B400C89173 /* SF-UI-Display-Black.otf */; };
+		1513FB19217B46B600C89173 /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB01217B46B500C89173 /* SF-UI-Text-MediumItalic.otf */; };
+		1513FB1A217B46B600C89173 /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB02217B46B500C89173 /* SF-UI-Text-RegularItalic.otf */; };
+		1513FB1B217B46B600C89173 /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB03217B46B500C89173 /* SF-UI-Display-Ultralight.otf */; };
+		1513FB1C217B46B600C89173 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB04217B46B500C89173 /* SF-UI-Text-Bold.otf */; };
+		1513FB1D217B46B600C89173 /* SF-UI-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB05217B46B500C89173 /* SF-UI-Text-Heavy.otf */; };
+		1513FB1E217B46B600C89173 /* Amiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB06217B46B500C89173 /* Amiri-Regular.ttf */; };
+		1513FB1F217B46B600C89173 /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB07217B46B500C89173 /* SF-UI-Display-Semibold.otf */; };
+		1513FB20217B46B600C89173 /* SF-UI-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB08217B46B500C89173 /* SF-UI-Text-HeavyItalic.otf */; };
+		1513FB21217B46B600C89173 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB09217B46B500C89173 /* SF-UI-Text-Light.otf */; };
+		1513FB22217B46B600C89173 /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0A217B46B500C89173 /* SF-UI-Display-Light.otf */; };
+		1513FB23217B46B600C89173 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0B217B46B500C89173 /* SF-UI-Text-Medium.otf */; };
+		1513FB24217B46B600C89173 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0C217B46B500C89173 /* SF-UI-Text-Semibold.otf */; };
+		1513FB25217B46B600C89173 /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0D217B46B600C89173 /* SF-UI-Display-Regular.otf */; };
+		1513FB26217B46B600C89173 /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0E217B46B600C89173 /* SF-UI-Display-Bold.otf */; };
+		1513FB27217B46B600C89173 /* SF-UI-Text-Ultrathin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB0F217B46B600C89173 /* SF-UI-Text-Ultrathin.otf */; };
+		1513FB29217B58E100C89173 /* Juzes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1513FB28217B58E100C89173 /* Juzes.plist */; };
+		1513FB2C217B5A2900C89173 /* HBQuranSuraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1513FB2B217B5A2900C89173 /* HBQuranSuraCell.m */; };
+		1513FB30217B6B0D00C89173 /* HBQuranAyaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1513FB2F217B6B0D00C89173 /* HBQuranAyaCell.m */; };
+		1513FB33217B742500C89173 /* HBQuranArabicItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1513FB32217B742500C89173 /* HBQuranArabicItemCell.m */; };
+		1513FB36217B753B00C89173 /* HBQuranRearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1513FB35217B753B00C89173 /* HBQuranRearCell.m */; };
+		15158540217C91FF0037677C /* HBQuranSoundItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1515853F217C91FF0037677C /* HBQuranSoundItemCell.m */; };
+		15158543217C96300037677C /* HBQuranSoundSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15158542217C96300037677C /* HBQuranSoundSwitchCell.m */; };
+		15158546217C96B70037677C /* HBQuranSoundOptCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15158545217C96B70037677C /* HBQuranSoundOptCell.m */; };
+		15158549217C97AB0037677C /* HBQuranItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15158548217C97AB0037677C /* HBQuranItemCell.m */; };
+		1515854F217CB1810037677C /* HBQuranGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 1515854E217CB1810037677C /* HBQuranGateway.m */; };
+		15164B8E21B715CE006A0C40 /* ViewControllersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 15164B8D21B715CE006A0C40 /* ViewControllersAssembly.m */; };
+		15164B9321B722F8006A0C40 /* HBArabicSettingsPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 15164B9221B722F8006A0C40 /* HBArabicSettingsPresenterImp.m */; };
+		15211964215C0FB1000BE89D /* HBRevealChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211948215C0FAF000BE89D /* HBRevealChildController.m */; };
+		15211965215C0FB1000BE89D /* HBQuranPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521194A215C0FB0000BE89D /* HBQuranPlayerController.m */; };
+		15211966215C0FB1000BE89D /* HBQuranWaitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521194B215C0FB0000BE89D /* HBQuranWaitController.m */; };
+		15211967215C0FB1000BE89D /* HBQuranProxyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521194C215C0FB0000BE89D /* HBQuranProxyController.m */; };
+		15211968215C0FB1000BE89D /* HBQuranTranslateSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521194D215C0FB0000BE89D /* HBQuranTranslateSettingsController.m */; };
+		15211969215C0FB1000BE89D /* HBQuranMainSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521194E215C0FB0000BE89D /* HBQuranMainSettingsController.m */; };
+		1521196A215C0FB1000BE89D /* HBQuranSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211950215C0FB0000BE89D /* HBQuranSearchController.m */; };
+		1521196B215C0FB1000BE89D /* HBQuranAyasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211957215C0FB0000BE89D /* HBQuranAyasController.m */; };
+		1521196C215C0FB1000BE89D /* HBQuranSurasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211958215C0FB0000BE89D /* HBQuranSurasController.m */; };
+		1521196D215C0FB1000BE89D /* HBQuranBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521195A215C0FB0000BE89D /* HBQuranBaseController.m */; };
+		1521196E215C0FB1000BE89D /* HBQuranArabicSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521195B215C0FB0000BE89D /* HBQuranArabicSettingsController.m */; };
+		1521196F215C0FB1000BE89D /* HBQuranNoticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521195C215C0FB0000BE89D /* HBQuranNoticeController.m */; };
+		15211970215C0FB1000BE89D /* HBQuranSoundSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521195D215C0FB1000BE89D /* HBQuranSoundSettingsController.m */; };
+		15211971215C0FB1000BE89D /* HBQuranRearController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211960215C0FB1000BE89D /* HBQuranRearController.m */; };
+		15211976215C1161000BE89D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211974215C1161000BE89D /* SWRevealViewController.m */; };
+		152119B7215C1306000BE89D /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211979215C1306000BE89D /* MagicalRecordInternal.m */; };
+		152119B8215C1306000BE89D /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521197A215C1306000BE89D /* MagicalRecord+iCloud.m */; };
+		152119B9215C1306000BE89D /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521197E215C1306000BE89D /* MagicalRecord+Setup.m */; };
+		152119BA215C1306000BE89D /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211981215C1306000BE89D /* MagicalRecord+Actions.m */; };
+		152119BB215C1306000BE89D /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211985215C1306000BE89D /* MagicalRecord+ShorthandMethods.m */; };
+		152119BC215C1306000BE89D /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211987215C1306000BE89D /* MagicalRecord+Options.m */; };
+		152119BD215C1306000BE89D /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211988215C1306000BE89D /* MagicalRecord+ErrorHandling.m */; };
+		152119BE215C1306000BE89D /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521198C215C1306000BE89D /* NSPersistentStore+MagicalRecord.m */; };
+		152119BF215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521198D215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.m */; };
+		152119C0215C1306000BE89D /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211990215C1306000BE89D /* NSManagedObject+MagicalFinders.m */; };
+		152119C1215C1306000BE89D /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211993215C1306000BE89D /* NSManagedObject+MagicalRecord.m */; };
+		152119C2215C1306000BE89D /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211996215C1306000BE89D /* NSManagedObject+MagicalAggregation.m */; };
+		152119C3215C1306000BE89D /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211997215C1306000BE89D /* NSManagedObject+MagicalDataImport.m */; };
+		152119C4215C1306000BE89D /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15211999215C1306000BE89D /* NSManagedObject+MagicalRequests.m */; };
+		152119C5215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521199F215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.m */; };
+		152119C6215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119A0215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.m */; };
+		152119C7215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119A1215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.m */; };
+		152119C8215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119A3215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.m */; };
+		152119C9215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119A4215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.m */; };
+		152119CA215C1306000BE89D /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119A6215C1306000BE89D /* NSNumber+MagicalDataImport.m */; };
+		152119CB215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119AB215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.m */; };
+		152119CC215C1306000BE89D /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119AE215C1306000BE89D /* NSEntityDescription+MagicalDataImport.m */; };
+		152119CD215C1306000BE89D /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119AF215C1306000BE89D /* MagicalImportFunctions.m */; };
+		152119CE215C1306000BE89D /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119B0215C1306000BE89D /* NSObject+MagicalDataImport.m */; };
+		152119CF215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119B1215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.m */; };
+		152119D0215C1306000BE89D /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119B3215C1306000BE89D /* NSString+MagicalDataImport.m */; };
+		152119D1215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119B6215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		152119E3215C1542000BE89D /* HBQuranSoundLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119D7215C1542000BE89D /* HBQuranSoundLoader.m */; };
+		152119E4215C1542000BE89D /* HBQuranSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119D8215C1542000BE89D /* HBQuranSoundManager.m */; };
+		152119E5215C1542000BE89D /* HBQuranSoundProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119DB215C1542000BE89D /* HBQuranSoundProvider.m */; };
+		152119E6215C1542000BE89D /* HBQuranManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119DC215C1542000BE89D /* HBQuranManager.m */; };
+		152119E7215C1542000BE89D /* HBLoadContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119DF215C1542000BE89D /* HBLoadContentManager.m */; };
+		152119E8215C1542000BE89D /* HBBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 152119E1215C1542000BE89D /* HBBaseLoader.m */; };
+		1523C1252239733000CFF526 /* HBQuranAyasRouterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1523C1242239733000CFF526 /* HBQuranAyasRouterImp.m */; };
+		15266E44223A804A00B329BB /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 15266E43223A804A00B329BB /* readme.md */; };
+		152B1240220DFC100067B791 /* HBQuranAyasPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 152B123F220DFC100067B791 /* HBQuranAyasPresenterImp.m */; };
+		154C13322173B4BE0064DAAE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 154C13302173B4BE0064DAAE /* Localizable.strings */; };
+		1559AFAE219CB98E0099BE83 /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1559AFAD219CB98E0099BE83 /* ApplicationAssembly.m */; };
+		1559F29C215D673D007705CA /* UIAlertController+Habar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1559F29A215D673D007705CA /* UIAlertController+Habar.m */; };
+		156A55D821C531FC00F93CA0 /* HBBaseRouterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A55D721C531FC00F93CA0 /* HBBaseRouterImp.m */; };
+		157A88662168CF38002C8747 /* AFHTTPSessionManager+HTTPError.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A88652168CF38002C8747 /* AFHTTPSessionManager+HTTPError.m */; };
+		1589839C215AB25E001E087A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589839B215AB25E001E087A /* AppDelegate.m */; };
+		158983A5215AB25E001E087A /* QuranBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 158983A3215AB25E001E087A /* QuranBook.xcdatamodeld */; };
+		158983A7215AB260001E087A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158983A6215AB260001E087A /* Assets.xcassets */; };
+		158983B7215AB260001E087A /* QuranBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158983B6215AB260001E087A /* QuranBookTests.m */; };
+		1590FFEB2168D4390023B71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1590FFE92168D4390023B71A /* main.m */; };
+		1590FFEE2168E2160023B71A /* HBSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1590FFED2168E2160023B71A /* HBSystem.m */; };
+		159F4F35218794AD00DF21B8 /* Model1_to_Model2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 159F4F34218794AD00DF21B8 /* Model1_to_Model2.xcmappingmodel */; };
+		15AA132D21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AA132C21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.m */; };
+		15AA133321BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AA133221BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.m */; };
+		15D315C121DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D315C021DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.m */; };
+		15DDD36C21766E8C00B03A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DDD36B21766E8C00B03A2F /* LaunchScreen.storyboard */; };
+		15DDD36E21766EA800B03A2F /* Quran.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15DDD36D21766EA800B03A2F /* Quran.plist */; };
+		15DDFA1B220CD4830069B1D0 /* HBQuranSurasRouterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DDFA1A220CD4830069B1D0 /* HBQuranSurasRouterImp.m */; };
+		15E9F70121612F51007BE9F3 /* _HBQuranImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6DD21612F4F007BE9F3 /* _HBQuranImageEntity.m */; };
+		15E9F70221612F51007BE9F3 /* _HBQuranItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6DF21612F4F007BE9F3 /* _HBQuranItemEntity.m */; };
+		15E9F70321612F51007BE9F3 /* HBQuranSoundEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E021612F4F007BE9F3 /* HBQuranSoundEntity.m */; };
+		15E9F70421612F51007BE9F3 /* _HBAyaExtraEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E121612F4F007BE9F3 /* _HBAyaExtraEntity.m */; };
+		15E9F70521612F51007BE9F3 /* HBQuranItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E421612F4F007BE9F3 /* HBQuranItemEntity.m */; };
+		15E9F70621612F51007BE9F3 /* _HBAyaHighlightEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E521612F4F007BE9F3 /* _HBAyaHighlightEntity.m */; };
+		15E9F70721612F51007BE9F3 /* HBAyaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E821612F4F007BE9F3 /* HBAyaEntity.m */; };
+		15E9F70821612F51007BE9F3 /* HBAyaSoundEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6E921612F4F007BE9F3 /* HBAyaSoundEntity.m */; };
+		15E9F70921612F51007BE9F3 /* HBQuranBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6EA21612F4F007BE9F3 /* HBQuranBaseEntity.m */; };
+		15E9F70A21612F51007BE9F3 /* _HBQuranSoundEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6ED21612F50007BE9F3 /* _HBQuranSoundEntity.m */; };
+		15E9F70B21612F51007BE9F3 /* HBQuranImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6EE21612F50007BE9F3 /* HBQuranImageEntity.m */; };
+		15E9F70C21612F51007BE9F3 /* HBSuraEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6F221612F50007BE9F3 /* HBSuraEntity.m */; };
+		15E9F70D21612F51007BE9F3 /* _HBAyaSoundEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6F321612F50007BE9F3 /* _HBAyaSoundEntity.m */; };
+		15E9F70E21612F51007BE9F3 /* _HBQuranBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6F621612F50007BE9F3 /* _HBQuranBaseEntity.m */; };
+		15E9F70F21612F51007BE9F3 /* _HBSuraEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6F721612F50007BE9F3 /* _HBSuraEntity.m */; };
+		15E9F71021612F51007BE9F3 /* HBAyaHighlightEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6F921612F50007BE9F3 /* HBAyaHighlightEntity.m */; };
+		15E9F71121612F51007BE9F3 /* _HBAyaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6FC21612F51007BE9F3 /* _HBAyaEntity.m */; };
+		15E9F71221612F51007BE9F3 /* HBAyaExtraEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F6FF21612F51007BE9F3 /* HBAyaExtraEntity.m */; };
+		15E9F71621613FBC007BE9F3 /* HBProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F71521613FBC007BE9F3 /* HBProfileManager.m */; };
+		15E9F71A21615111007BE9F3 /* UIView+UITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F71921615111007BE9F3 /* UIView+UITableViewCell.m */; };
+		15E9F71F216153B9007BE9F3 /* HBCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F71B216153B8007BE9F3 /* HBCoreDataManager.m */; };
+		15E9F720216153B9007BE9F3 /* HBMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F71C216153B9007BE9F3 /* HBMigrationManager.m */; };
+		15E9F7232161595E007BE9F3 /* HBTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F7222161595D007BE9F3 /* HBTimePickerViewController.m */; };
+		15E9F72721615AAD007BE9F3 /* HBQuranSearchSuraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F72621615AAD007BE9F3 /* HBQuranSearchSuraCell.m */; };
+		15E9F73321615E09007BE9F3 /* HBSuraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F72921615E08007BE9F3 /* HBSuraModel.m */; };
+		15E9F73421615E09007BE9F3 /* HBAyaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F72B21615E08007BE9F3 /* HBAyaModel.m */; };
+		15E9F73521615E09007BE9F3 /* HBAyaSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F72C21615E08007BE9F3 /* HBAyaSoundModel.m */; };
+		15E9F73621615E09007BE9F3 /* HBHighlightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F72F21615E08007BE9F3 /* HBHighlightModel.m */; };
+		15E9F73721615E09007BE9F3 /* HBJuzModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F73021615E08007BE9F3 /* HBJuzModel.m */; };
+		15E9F73A21616091007BE9F3 /* NSMutableAttributedString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F73821616091007BE9F3 /* NSMutableAttributedString+HTML.m */; };
+		15E9F73E2161658A007BE9F3 /* UIColor+Habar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F73C2161658A007BE9F3 /* UIColor+Habar.m */; };
+		15E9F7412161665D007BE9F3 /* HBTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F7402161665C007BE9F3 /* HBTimeUtils.m */; };
+		15E9F744216166D4007BE9F3 /* UIView+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F743216166D4007BE9F3 /* UIView+StatusBar.m */; };
+		15E9F74F216167AC007BE9F3 /* QuranTopScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E9F746216167AC007BE9F3 /* QuranTopScrollView.xib */; };
+		15E9F750216167AC007BE9F3 /* QuranMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E9F747216167AC007BE9F3 /* QuranMenuView.xib */; };
+		15E9F751216167AC007BE9F3 /* QuranTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F748216167AC007BE9F3 /* QuranTopScrollView.m */; };
+		15E9F752216167AC007BE9F3 /* QuranPlayerSmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F74B216167AC007BE9F3 /* QuranPlayerSmallView.m */; };
+		15E9F753216167AC007BE9F3 /* QuranMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F74C216167AC007BE9F3 /* QuranMenuView.m */; };
+		15E9F754216167AC007BE9F3 /* QuranPlayerSmallView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E9F74D216167AC007BE9F3 /* QuranPlayerSmallView.xib */; };
+		15E9F75721616887007BE9F3 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F75621616887007BE9F3 /* UIResponder+FirstResponder.m */; };
+		15E9F75B216169AA007BE9F3 /* HBFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F759216169AA007BE9F3 /* HBFileUtils.m */; };
+		15E9F75E21616A21007BE9F3 /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F75C21616A21007BE9F3 /* UIView+UIViewController.m */; };
+		15E9F76121616A9A007BE9F3 /* HBCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F76021616A9A007BE9F3 /* HBCircleProgressView.m */; };
+		15E9F76421616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F76221616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.m */; };
+		15E9F76721616DDE007BE9F3 /* HBNetConnectionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9F76621616DDE007BE9F3 /* HBNetConnectionChecker.m */; };
+		15EFAE2E216FDC7400F1E471 /* HBUIStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFAE2D216FDC7400F1E471 /* HBUIStyleManager.m */; };
+		15FC810B215AB76600A363BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC810A215AB76600A363BF /* Main.storyboard */; };
+		64843C1423A8275FDF56512E /* libPods-QuranBook-QuranBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A34B3F3121BC3758CFA085DA /* libPods-QuranBook-QuranBookTests.a */; };
+		A64277E7506E084FA46BA401 /* libPods-QuranBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2C1642CA1CF5A39953F43E /* libPods-QuranBook.a */; };
+		F66D8AE3105E15D1741BA80D /* libPods-QuranBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E1DA60BF755A286898633A /* libPods-QuranBookTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		158983B3215AB260001E087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1589838F215AB25E001E087A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15898396215AB25E001E087A;
+			remoteInfo = QuranBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2C1642CA1CF5A39953F43E /* libPods-QuranBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuranBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150E8D9621B442E800908BC9 /* HBMainSettingsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBMainSettingsPresenter.h; sourceTree = "<group>"; };
+		150E8D9721B4433200908BC9 /* HBMainSettingsPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBMainSettingsPresenterImp.h; sourceTree = "<group>"; };
+		150E8D9821B4433200908BC9 /* HBMainSettingsPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBMainSettingsPresenterImp.m; sourceTree = "<group>"; };
+		150E8D9A21B446D700908BC9 /* HBMainSettingsRouterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBMainSettingsRouterImp.h; sourceTree = "<group>"; };
+		150E8D9B21B446D700908BC9 /* HBMainSettingsRouterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBMainSettingsRouterImp.m; sourceTree = "<group>"; };
+		150E8D9D21B44D2000908BC9 /* HBBaseControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBaseControllerView.h; sourceTree = "<group>"; };
+		150E8D9E21B44FFB00908BC9 /* HBBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBaseViewController.h; sourceTree = "<group>"; };
+		150E8D9F21B44FFB00908BC9 /* HBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBaseViewController.m; sourceTree = "<group>"; };
+		150E8DA121B4514000908BC9 /* HBBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBaseTableViewController.h; sourceTree = "<group>"; };
+		150E8DA221B4514000908BC9 /* HBBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBaseTableViewController.m; sourceTree = "<group>"; };
+		150E8DA421B4739B00908BC9 /* HBParentPresenterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBParentPresenterDelegate.h; sourceTree = "<group>"; };
+		150E8DA521B478DA00908BC9 /* HBMainSettingsRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBMainSettingsRouter.h; sourceTree = "<group>"; };
+		1513FAF8217B46B400C89173 /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
+		1513FAF9217B46B400C89173 /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		1513FAFA217B46B400C89173 /* SF-UI-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Heavy.otf"; sourceTree = "<group>"; };
+		1513FAFB217B46B400C89173 /* SF-UI-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		1513FAFC217B46B400C89173 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		1513FAFD217B46B400C89173 /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		1513FAFE217B46B400C89173 /* SF-UI-Text-UltrathinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-UltrathinItalic.otf"; sourceTree = "<group>"; };
+		1513FAFF217B46B400C89173 /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		1513FB00217B46B400C89173 /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
+		1513FB01217B46B500C89173 /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		1513FB02217B46B500C89173 /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		1513FB03217B46B500C89173 /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		1513FB04217B46B500C89173 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		1513FB05217B46B500C89173 /* SF-UI-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Heavy.otf"; sourceTree = "<group>"; };
+		1513FB06217B46B500C89173 /* Amiri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amiri-Regular.ttf"; sourceTree = "<group>"; };
+		1513FB07217B46B500C89173 /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		1513FB08217B46B500C89173 /* SF-UI-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		1513FB09217B46B500C89173 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		1513FB0A217B46B500C89173 /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		1513FB0B217B46B500C89173 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		1513FB0C217B46B500C89173 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		1513FB0D217B46B600C89173 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		1513FB0E217B46B600C89173 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		1513FB0F217B46B600C89173 /* SF-UI-Text-Ultrathin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Ultrathin.otf"; sourceTree = "<group>"; };
+		1513FB28217B58E100C89173 /* Juzes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Juzes.plist; sourceTree = "<group>"; };
+		1513FB2A217B5A2900C89173 /* HBQuranSuraCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSuraCell.h; sourceTree = "<group>"; };
+		1513FB2B217B5A2900C89173 /* HBQuranSuraCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSuraCell.m; sourceTree = "<group>"; };
+		1513FB2D217B5AA700C89173 /* HBSuraCellState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSuraCellState.h; sourceTree = "<group>"; };
+		1513FB2E217B6B0D00C89173 /* HBQuranAyaCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyaCell.h; sourceTree = "<group>"; };
+		1513FB2F217B6B0D00C89173 /* HBQuranAyaCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranAyaCell.m; sourceTree = "<group>"; };
+		1513FB31217B742500C89173 /* HBQuranArabicItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranArabicItemCell.h; sourceTree = "<group>"; };
+		1513FB32217B742500C89173 /* HBQuranArabicItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranArabicItemCell.m; sourceTree = "<group>"; };
+		1513FB34217B753B00C89173 /* HBQuranRearCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranRearCell.h; sourceTree = "<group>"; };
+		1513FB35217B753B00C89173 /* HBQuranRearCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranRearCell.m; sourceTree = "<group>"; };
+		1513FB37217B75BB00C89173 /* HBRearCellState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRearCellState.h; sourceTree = "<group>"; };
+		1515853E217C91FF0037677C /* HBQuranSoundItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundItemCell.h; sourceTree = "<group>"; };
+		1515853F217C91FF0037677C /* HBQuranSoundItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundItemCell.m; sourceTree = "<group>"; };
+		15158541217C96300037677C /* HBQuranSoundSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundSwitchCell.h; sourceTree = "<group>"; };
+		15158542217C96300037677C /* HBQuranSoundSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundSwitchCell.m; sourceTree = "<group>"; };
+		15158544217C96B70037677C /* HBQuranSoundOptCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundOptCell.h; sourceTree = "<group>"; };
+		15158545217C96B70037677C /* HBQuranSoundOptCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundOptCell.m; sourceTree = "<group>"; };
+		15158547217C97AB0037677C /* HBQuranItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranItemCell.h; sourceTree = "<group>"; };
+		15158548217C97AB0037677C /* HBQuranItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranItemCell.m; sourceTree = "<group>"; };
+		1515854D217CB1810037677C /* HBQuranGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranGateway.h; sourceTree = "<group>"; };
+		1515854E217CB1810037677C /* HBQuranGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranGateway.m; sourceTree = "<group>"; };
+		15164B8C21B715CE006A0C40 /* ViewControllersAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllersAssembly.h; sourceTree = "<group>"; };
+		15164B8D21B715CE006A0C40 /* ViewControllersAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllersAssembly.m; sourceTree = "<group>"; };
+		15164B9021B72214006A0C40 /* HBArabicSettingsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBArabicSettingsPresenter.h; sourceTree = "<group>"; };
+		15164B9121B722F8006A0C40 /* HBArabicSettingsPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBArabicSettingsPresenterImp.h; sourceTree = "<group>"; };
+		15164B9221B722F8006A0C40 /* HBArabicSettingsPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBArabicSettingsPresenterImp.m; sourceTree = "<group>"; };
+		15211948215C0FAF000BE89D /* HBRevealChildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRevealChildController.m; sourceTree = "<group>"; };
+		15211949215C0FB0000BE89D /* HBQuranSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSearchController.h; sourceTree = "<group>"; };
+		1521194A215C0FB0000BE89D /* HBQuranPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranPlayerController.m; sourceTree = "<group>"; };
+		1521194B215C0FB0000BE89D /* HBQuranWaitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranWaitController.m; sourceTree = "<group>"; };
+		1521194C215C0FB0000BE89D /* HBQuranProxyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranProxyController.m; sourceTree = "<group>"; };
+		1521194D215C0FB0000BE89D /* HBQuranTranslateSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranTranslateSettingsController.m; sourceTree = "<group>"; };
+		1521194E215C0FB0000BE89D /* HBQuranMainSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranMainSettingsController.m; sourceTree = "<group>"; };
+		1521194F215C0FB0000BE89D /* HBQuranTranslateSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranTranslateSettingsController.h; sourceTree = "<group>"; };
+		15211950215C0FB0000BE89D /* HBQuranSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSearchController.m; sourceTree = "<group>"; };
+		15211951215C0FB0000BE89D /* HBQuranSurasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSurasController.h; sourceTree = "<group>"; };
+		15211952215C0FB0000BE89D /* HBQuranBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranBaseController.h; sourceTree = "<group>"; };
+		15211953215C0FB0000BE89D /* HBQuranArabicSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranArabicSettingsController.h; sourceTree = "<group>"; };
+		15211954215C0FB0000BE89D /* HBRevealChildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRevealChildController.h; sourceTree = "<group>"; };
+		15211955215C0FB0000BE89D /* HBQuranProxyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranProxyController.h; sourceTree = "<group>"; };
+		15211956215C0FB0000BE89D /* HBQuranMainSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranMainSettingsController.h; sourceTree = "<group>"; };
+		15211957215C0FB0000BE89D /* HBQuranAyasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranAyasController.m; sourceTree = "<group>"; };
+		15211958215C0FB0000BE89D /* HBQuranSurasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSurasController.m; sourceTree = "<group>"; };
+		15211959215C0FB0000BE89D /* HBQuranAyasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranAyasController.h; sourceTree = "<group>"; };
+		1521195A215C0FB0000BE89D /* HBQuranBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranBaseController.m; sourceTree = "<group>"; };
+		1521195B215C0FB0000BE89D /* HBQuranArabicSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranArabicSettingsController.m; sourceTree = "<group>"; };
+		1521195C215C0FB0000BE89D /* HBQuranNoticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranNoticeController.m; sourceTree = "<group>"; };
+		1521195D215C0FB1000BE89D /* HBQuranSoundSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundSettingsController.m; sourceTree = "<group>"; };
+		1521195E215C0FB1000BE89D /* HBQuranPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranPlayerController.h; sourceTree = "<group>"; };
+		1521195F215C0FB1000BE89D /* HBQuranWaitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranWaitController.h; sourceTree = "<group>"; };
+		15211960215C0FB1000BE89D /* HBQuranRearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranRearController.m; sourceTree = "<group>"; };
+		15211961215C0FB1000BE89D /* HBQuranSoundSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundSettingsController.h; sourceTree = "<group>"; };
+		15211962215C0FB1000BE89D /* HBQuranNoticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranNoticeController.h; sourceTree = "<group>"; };
+		15211963215C0FB1000BE89D /* HBQuranRearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranRearController.h; sourceTree = "<group>"; };
+		15211974215C1161000BE89D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		15211975215C1161000BE89D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		15211979215C1306000BE89D /* MagicalRecordInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordInternal.m; sourceTree = "<group>"; };
+		1521197A215C1306000BE89D /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		1521197B215C1306000BE89D /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		1521197C215C1306000BE89D /* MagicalRecordLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordLogging.h; sourceTree = "<group>"; };
+		1521197D215C1306000BE89D /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
+		1521197E215C1306000BE89D /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		1521197F215C1306000BE89D /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		15211980215C1306000BE89D /* MagicalRecord+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		15211981215C1306000BE89D /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		15211982215C1306000BE89D /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		15211983215C1306000BE89D /* MagicalRecordInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordInternal.h; sourceTree = "<group>"; };
+		15211984215C1306000BE89D /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
+		15211985215C1306000BE89D /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
+		15211986215C1306000BE89D /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
+		15211987215C1306000BE89D /* MagicalRecord+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		15211988215C1306000BE89D /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		15211989215C1306000BE89D /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		1521198A215C1306000BE89D /* MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecord.h; sourceTree = "<group>"; };
+		1521198C215C1306000BE89D /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		1521198D215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		1521198E215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		15211990215C1306000BE89D /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		15211991215C1306000BE89D /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		15211992215C1306000BE89D /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		15211993215C1306000BE89D /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		15211994215C1306000BE89D /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		15211995215C1306000BE89D /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		15211996215C1306000BE89D /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		15211997215C1306000BE89D /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		15211998215C1306000BE89D /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		15211999215C1306000BE89D /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		1521199B215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		1521199C215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		1521199D215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		1521199E215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		1521199F215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		152119A0215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
+		152119A1215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		152119A2215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		152119A3215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
+		152119A4215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		152119A6215C1306000BE89D /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119A7215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119A8215C1306000BE89D /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119A9215C1306000BE89D /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
+		152119AA215C1306000BE89D /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119AB215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119AC215C1306000BE89D /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119AD215C1306000BE89D /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119AE215C1306000BE89D /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119AF215C1306000BE89D /* MagicalImportFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalImportFunctions.m; sourceTree = "<group>"; };
+		152119B0215C1306000BE89D /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119B1215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119B2215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		152119B3215C1306000BE89D /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		152119B4215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		152119B5215C1306000BE89D /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		152119B6215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		152119D7215C1542000BE89D /* HBQuranSoundLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundLoader.m; sourceTree = "<group>"; };
+		152119D8215C1542000BE89D /* HBQuranSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundManager.m; sourceTree = "<group>"; };
+		152119D9215C1542000BE89D /* HBQuranSoundProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundProvider.h; sourceTree = "<group>"; };
+		152119DA215C1542000BE89D /* HBQuranSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundManager.h; sourceTree = "<group>"; };
+		152119DB215C1542000BE89D /* HBQuranSoundProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundProvider.m; sourceTree = "<group>"; };
+		152119DC215C1542000BE89D /* HBQuranManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranManager.m; sourceTree = "<group>"; };
+		152119DD215C1542000BE89D /* HBLoadContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLoadContentManager.h; sourceTree = "<group>"; };
+		152119DE215C1542000BE89D /* HBBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseLoader.h; sourceTree = "<group>"; };
+		152119DF215C1542000BE89D /* HBLoadContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLoadContentManager.m; sourceTree = "<group>"; };
+		152119E0215C1542000BE89D /* HBQuranManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranManager.h; sourceTree = "<group>"; };
+		152119E1215C1542000BE89D /* HBBaseLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseLoader.m; sourceTree = "<group>"; };
+		152119E2215C1542000BE89D /* HBQuranSoundLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundLoader.h; sourceTree = "<group>"; };
+		1523C1222239726900CFF526 /* HBQuranAyasRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyasRouter.h; sourceTree = "<group>"; };
+		1523C1232239733000CFF526 /* HBQuranAyasRouterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyasRouterImp.h; sourceTree = "<group>"; };
+		1523C1242239733000CFF526 /* HBQuranAyasRouterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranAyasRouterImp.m; sourceTree = "<group>"; };
+		15266E43223A804A00B329BB /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		152B123D220DFBA90067B791 /* HBQuranAyasPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyasPresenter.h; sourceTree = "<group>"; };
+		152B123E220DFC100067B791 /* HBQuranAyasPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyasPresenterImp.h; sourceTree = "<group>"; };
+		152B123F220DFC100067B791 /* HBQuranAyasPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranAyasPresenterImp.m; sourceTree = "<group>"; };
+		1537C62821BC04D2007773E9 /* HBQuranArabicItemCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranArabicItemCellView.h; sourceTree = "<group>"; };
+		154C13312173B4BE0064DAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		154C13332173B4C50064DAAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		154C13342173B4C60064DAAE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		154F4D9021C6BF2F0080F658 /* HBQuranSoundItemCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundItemCellView.h; sourceTree = "<group>"; };
+		1559AFAA219CB5AA0099BE83 /* HBQuranService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranService.h; sourceTree = "<group>"; };
+		1559AFAC219CB98E0099BE83 /* ApplicationAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		1559AFAD219CB98E0099BE83 /* ApplicationAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		1559F29A215D673D007705CA /* UIAlertController+Habar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Habar.m"; sourceTree = "<group>"; };
+		1559F29B215D673D007705CA /* UIAlertController+Habar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Habar.h"; sourceTree = "<group>"; };
+		1559F29F215D6853007705CA /* HBQuranItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranItemType.h; sourceTree = "<group>"; };
+		1559F2A0215D689C007705CA /* HBQuranRearType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranRearType.h; sourceTree = "<group>"; };
+		15647AEE21AAD33D00AD93AD /* HBQuranSoundService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundService.h; sourceTree = "<group>"; };
+		156A55D621C531FC00F93CA0 /* HBBaseRouterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBaseRouterImp.h; sourceTree = "<group>"; };
+		156A55D721C531FC00F93CA0 /* HBBaseRouterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBaseRouterImp.m; sourceTree = "<group>"; };
+		1579596821C8176D001FFFDC /* HBQuranSoundSwitchCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundSwitchCellView.h; sourceTree = "<group>"; };
+		1579596921C81D98001FFFDC /* HBQuranSoundOptCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundOptCellView.h; sourceTree = "<group>"; };
+		157A88642168CF38002C8747 /* AFHTTPSessionManager+HTTPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+HTTPError.h"; sourceTree = "<group>"; };
+		157A88652168CF38002C8747 /* AFHTTPSessionManager+HTTPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+HTTPError.m"; sourceTree = "<group>"; };
+		15898397215AB25E001E087A /* QuranBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1589839A215AB25E001E087A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1589839B215AB25E001E087A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		158983A4215AB25E001E087A /* QuranBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuranBook.xcdatamodel; sourceTree = "<group>"; };
+		158983A6215AB260001E087A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		158983B2215AB260001E087A /* QuranBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		158983B6215AB260001E087A /* QuranBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuranBookTests.m; sourceTree = "<group>"; };
+		1590FFE82168D4380023B71A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuranBook/Info.plist; sourceTree = SOURCE_ROOT; };
+		1590FFE92168D4390023B71A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QuranBook/main.m; sourceTree = SOURCE_ROOT; };
+		1590FFEC2168E2160023B71A /* HBSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSystem.h; sourceTree = "<group>"; };
+		1590FFED2168E2160023B71A /* HBSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSystem.m; sourceTree = "<group>"; };
+		159F4F332187942700DF21B8 /* QuranBook 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QuranBook 2.xcdatamodel"; sourceTree = "<group>"; };
+		159F4F34218794AD00DF21B8 /* Model1_to_Model2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model1_to_Model2.xcmappingmodel; sourceTree = "<group>"; };
+		15A0B8B6215FC6B70027D53E /* HBLoadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLoadState.h; sourceTree = "<group>"; };
+		15AA132A21BD615C00AA67B9 /* HBTranslateSettingsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTranslateSettingsPresenter.h; sourceTree = "<group>"; };
+		15AA132B21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTranslateSettingsPresenterImp.h; sourceTree = "<group>"; };
+		15AA132C21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTranslateSettingsPresenterImp.m; sourceTree = "<group>"; };
+		15AA132E21BD662600AA67B9 /* HBQuranItemCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranItemCellView.h; sourceTree = "<group>"; };
+		15AA133021BDA9D800AA67B9 /* HBSoundSettingsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSoundSettingsPresenter.h; sourceTree = "<group>"; };
+		15AA133121BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSoundSettingsPresenterImp.h; sourceTree = "<group>"; };
+		15AA133221BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSoundSettingsPresenterImp.m; sourceTree = "<group>"; };
+		15D315BE21DE2DFA00B9D8D0 /* HBQuranSurasPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSurasPresenter.h; sourceTree = "<group>"; };
+		15D315BF21DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSurasPresenterImp.h; sourceTree = "<group>"; };
+		15D315C021DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSurasPresenterImp.m; sourceTree = "<group>"; };
+		15DDD36B21766E8C00B03A2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15DDD36D21766EA800B03A2F /* Quran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quran.plist; sourceTree = "<group>"; };
+		15DDFA18220CD4210069B1D0 /* HBQuranSurasRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSurasRouter.h; sourceTree = "<group>"; };
+		15DDFA19220CD4830069B1D0 /* HBQuranSurasRouterImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSurasRouterImp.h; sourceTree = "<group>"; };
+		15DDFA1A220CD4830069B1D0 /* HBQuranSurasRouterImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBQuranSurasRouterImp.m; sourceTree = "<group>"; };
+		15DDFA1C220CD8180069B1D0 /* HBQuranSuraCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSuraCellView.h; sourceTree = "<group>"; };
+		15DDFA1D220CDF400069B1D0 /* HBQuranSearchSuraCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranSearchSuraCellView.h; sourceTree = "<group>"; };
+		15E6194B215FA8790034C1C8 /* HBQuranSoundEndAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundEndAction.h; sourceTree = "<group>"; };
+		15E6194C215FA8970034C1C8 /* HBQuranSoundRepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundRepeat.h; sourceTree = "<group>"; };
+		15E6194F215FAC1C0034C1C8 /* HBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBMacros.h; sourceTree = "<group>"; };
+		15E61950215FAD430034C1C8 /* HBConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBConstants.h; sourceTree = "<group>"; };
+		15E9F6DD21612F4F007BE9F3 /* _HBQuranImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBQuranImageEntity.m; sourceTree = "<group>"; };
+		15E9F6DE21612F4F007BE9F3 /* HBAyaEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaEntity.h; sourceTree = "<group>"; };
+		15E9F6DF21612F4F007BE9F3 /* _HBQuranItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBQuranItemEntity.m; sourceTree = "<group>"; };
+		15E9F6E021612F4F007BE9F3 /* HBQuranSoundEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSoundEntity.m; sourceTree = "<group>"; };
+		15E9F6E121612F4F007BE9F3 /* _HBAyaExtraEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBAyaExtraEntity.m; sourceTree = "<group>"; };
+		15E9F6E221612F4F007BE9F3 /* HBAyaHighlightEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaHighlightEntity.h; sourceTree = "<group>"; };
+		15E9F6E321612F4F007BE9F3 /* _HBQuranImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBQuranImageEntity.h; sourceTree = "<group>"; };
+		15E9F6E421612F4F007BE9F3 /* HBQuranItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranItemEntity.m; sourceTree = "<group>"; };
+		15E9F6E521612F4F007BE9F3 /* _HBAyaHighlightEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBAyaHighlightEntity.m; sourceTree = "<group>"; };
+		15E9F6E621612F4F007BE9F3 /* _HBSuraEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBSuraEntity.h; sourceTree = "<group>"; };
+		15E9F6E721612F4F007BE9F3 /* _HBAyaExtraEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBAyaExtraEntity.h; sourceTree = "<group>"; };
+		15E9F6E821612F4F007BE9F3 /* HBAyaEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaEntity.m; sourceTree = "<group>"; };
+		15E9F6E921612F4F007BE9F3 /* HBAyaSoundEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaSoundEntity.m; sourceTree = "<group>"; };
+		15E9F6EA21612F4F007BE9F3 /* HBQuranBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranBaseEntity.m; sourceTree = "<group>"; };
+		15E9F6EB21612F4F007BE9F3 /* _HBQuranBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBQuranBaseEntity.h; sourceTree = "<group>"; };
+		15E9F6EC21612F50007BE9F3 /* HBQuranSoundEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSoundEntity.h; sourceTree = "<group>"; };
+		15E9F6ED21612F50007BE9F3 /* _HBQuranSoundEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBQuranSoundEntity.m; sourceTree = "<group>"; };
+		15E9F6EE21612F50007BE9F3 /* HBQuranImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranImageEntity.m; sourceTree = "<group>"; };
+		15E9F6EF21612F50007BE9F3 /* HBAyaExtraEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaExtraEntity.h; sourceTree = "<group>"; };
+		15E9F6F021612F50007BE9F3 /* _HBAyaEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBAyaEntity.h; sourceTree = "<group>"; };
+		15E9F6F121612F50007BE9F3 /* HBQuranItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranItemEntity.h; sourceTree = "<group>"; };
+		15E9F6F221612F50007BE9F3 /* HBSuraEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSuraEntity.m; sourceTree = "<group>"; };
+		15E9F6F321612F50007BE9F3 /* _HBAyaSoundEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBAyaSoundEntity.m; sourceTree = "<group>"; };
+		15E9F6F421612F50007BE9F3 /* _HBQuranItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBQuranItemEntity.h; sourceTree = "<group>"; };
+		15E9F6F521612F50007BE9F3 /* HBAyaSoundEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaSoundEntity.h; sourceTree = "<group>"; };
+		15E9F6F621612F50007BE9F3 /* _HBQuranBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBQuranBaseEntity.m; sourceTree = "<group>"; };
+		15E9F6F721612F50007BE9F3 /* _HBSuraEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBSuraEntity.m; sourceTree = "<group>"; };
+		15E9F6F821612F50007BE9F3 /* _HBQuranSoundEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBQuranSoundEntity.h; sourceTree = "<group>"; };
+		15E9F6F921612F50007BE9F3 /* HBAyaHighlightEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaHighlightEntity.m; sourceTree = "<group>"; };
+		15E9F6FA21612F51007BE9F3 /* HBQuranBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranBaseEntity.h; sourceTree = "<group>"; };
+		15E9F6FB21612F51007BE9F3 /* HBSuraEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSuraEntity.h; sourceTree = "<group>"; };
+		15E9F6FC21612F51007BE9F3 /* _HBAyaEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _HBAyaEntity.m; sourceTree = "<group>"; };
+		15E9F6FD21612F51007BE9F3 /* _HBAyaHighlightEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBAyaHighlightEntity.h; sourceTree = "<group>"; };
+		15E9F6FE21612F51007BE9F3 /* _HBAyaSoundEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _HBAyaSoundEntity.h; sourceTree = "<group>"; };
+		15E9F6FF21612F51007BE9F3 /* HBAyaExtraEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaExtraEntity.m; sourceTree = "<group>"; };
+		15E9F70021612F51007BE9F3 /* HBQuranImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranImageEntity.h; sourceTree = "<group>"; };
+		15E9F71321613D2A007BE9F3 /* HBParentControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBParentControllerDelegate.h; sourceTree = "<group>"; };
+		15E9F71421613FBC007BE9F3 /* HBProfileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBProfileManager.h; sourceTree = "<group>"; };
+		15E9F71521613FBC007BE9F3 /* HBProfileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBProfileManager.m; sourceTree = "<group>"; };
+		15E9F717216147CB007BE9F3 /* HBQuranItemState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranItemState.h; sourceTree = "<group>"; };
+		15E9F71821615111007BE9F3 /* UIView+UITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UITableViewCell.h"; sourceTree = "<group>"; };
+		15E9F71921615111007BE9F3 /* UIView+UITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UITableViewCell.m"; sourceTree = "<group>"; };
+		15E9F71B216153B8007BE9F3 /* HBCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCoreDataManager.m; sourceTree = "<group>"; };
+		15E9F71C216153B9007BE9F3 /* HBMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMigrationManager.m; sourceTree = "<group>"; };
+		15E9F71D216153B9007BE9F3 /* HBMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMigrationManager.h; sourceTree = "<group>"; };
+		15E9F71E216153B9007BE9F3 /* HBCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCoreDataManager.h; sourceTree = "<group>"; };
+		15E9F7212161595D007BE9F3 /* HBTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTimePickerViewController.h; sourceTree = "<group>"; };
+		15E9F7222161595D007BE9F3 /* HBTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTimePickerViewController.m; sourceTree = "<group>"; };
+		15E9F72521615AAD007BE9F3 /* HBQuranSearchSuraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBQuranSearchSuraCell.h; sourceTree = "<group>"; };
+		15E9F72621615AAD007BE9F3 /* HBQuranSearchSuraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBQuranSearchSuraCell.m; sourceTree = "<group>"; };
+		15E9F72921615E08007BE9F3 /* HBSuraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSuraModel.m; sourceTree = "<group>"; };
+		15E9F72A21615E08007BE9F3 /* HBHighlightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHighlightModel.h; sourceTree = "<group>"; };
+		15E9F72B21615E08007BE9F3 /* HBAyaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaModel.m; sourceTree = "<group>"; };
+		15E9F72C21615E08007BE9F3 /* HBAyaSoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAyaSoundModel.m; sourceTree = "<group>"; };
+		15E9F72D21615E08007BE9F3 /* HBAyaSoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaSoundModel.h; sourceTree = "<group>"; };
+		15E9F72E21615E08007BE9F3 /* HBAyaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAyaModel.h; sourceTree = "<group>"; };
+		15E9F72F21615E08007BE9F3 /* HBHighlightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHighlightModel.m; sourceTree = "<group>"; };
+		15E9F73021615E08007BE9F3 /* HBJuzModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBJuzModel.m; sourceTree = "<group>"; };
+		15E9F73121615E09007BE9F3 /* HBSuraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSuraModel.h; sourceTree = "<group>"; };
+		15E9F73221615E09007BE9F3 /* HBJuzModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBJuzModel.h; sourceTree = "<group>"; };
+		15E9F73821616091007BE9F3 /* NSMutableAttributedString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+HTML.m"; sourceTree = "<group>"; };
+		15E9F73921616091007BE9F3 /* NSMutableAttributedString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+HTML.h"; sourceTree = "<group>"; };
+		15E9F73B21616160007BE9F3 /* HBControllerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBControllerState.h; sourceTree = "<group>"; };
+		15E9F73C2161658A007BE9F3 /* UIColor+Habar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Habar.m"; sourceTree = "<group>"; };
+		15E9F73D2161658A007BE9F3 /* UIColor+Habar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Habar.h"; sourceTree = "<group>"; };
+		15E9F73F2161665C007BE9F3 /* HBTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTimeUtils.h; sourceTree = "<group>"; };
+		15E9F7402161665C007BE9F3 /* HBTimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTimeUtils.m; sourceTree = "<group>"; };
+		15E9F742216166D3007BE9F3 /* UIView+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StatusBar.h"; sourceTree = "<group>"; };
+		15E9F743216166D4007BE9F3 /* UIView+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+StatusBar.m"; sourceTree = "<group>"; };
+		15E9F746216167AC007BE9F3 /* QuranTopScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuranTopScrollView.xib; sourceTree = "<group>"; };
+		15E9F747216167AC007BE9F3 /* QuranMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuranMenuView.xib; sourceTree = "<group>"; };
+		15E9F748216167AC007BE9F3 /* QuranTopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuranTopScrollView.m; sourceTree = "<group>"; };
+		15E9F749216167AC007BE9F3 /* QuranTopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuranTopScrollView.h; sourceTree = "<group>"; };
+		15E9F74A216167AC007BE9F3 /* QuranPlayerSmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuranPlayerSmallView.h; sourceTree = "<group>"; };
+		15E9F74B216167AC007BE9F3 /* QuranPlayerSmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuranPlayerSmallView.m; sourceTree = "<group>"; };
+		15E9F74C216167AC007BE9F3 /* QuranMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuranMenuView.m; sourceTree = "<group>"; };
+		15E9F74D216167AC007BE9F3 /* QuranPlayerSmallView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuranPlayerSmallView.xib; sourceTree = "<group>"; };
+		15E9F74E216167AC007BE9F3 /* QuranMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuranMenuView.h; sourceTree = "<group>"; };
+		15E9F75521616887007BE9F3 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
+		15E9F75621616887007BE9F3 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
+		15E9F759216169AA007BE9F3 /* HBFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFileUtils.m; sourceTree = "<group>"; };
+		15E9F75A216169AA007BE9F3 /* HBFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFileUtils.h; sourceTree = "<group>"; };
+		15E9F75C21616A21007BE9F3 /* UIView+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewController.m"; sourceTree = "<group>"; };
+		15E9F75D21616A21007BE9F3 /* UIView+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewController.h"; sourceTree = "<group>"; };
+		15E9F75F21616A9A007BE9F3 /* HBCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCircleProgressView.h; sourceTree = "<group>"; };
+		15E9F76021616A9A007BE9F3 /* HBCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCircleProgressView.m; sourceTree = "<group>"; };
+		15E9F76221616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuItem+CXAImageSupport.m"; sourceTree = "<group>"; };
+		15E9F76321616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMenuItem+CXAImageSupport.h"; sourceTree = "<group>"; };
+		15E9F76521616DDE007BE9F3 /* HBNetConnectionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBNetConnectionChecker.h; sourceTree = "<group>"; };
+		15E9F76621616DDE007BE9F3 /* HBNetConnectionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBNetConnectionChecker.m; sourceTree = "<group>"; };
+		15ECE37B21A985F8005AA9DE /* HBLoadContentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBLoadContentService.h; sourceTree = "<group>"; };
+		15ECE37C21A98B69005AA9DE /* HBLoadType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBLoadType.h; sourceTree = "<group>"; };
+		15EFAE2C216FDC7400F1E471 /* HBUIStyleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBUIStyleManager.h; sourceTree = "<group>"; };
+		15EFAE2D216FDC7400F1E471 /* HBUIStyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBUIStyleManager.m; sourceTree = "<group>"; };
+		15F492B32221626C00A10E1C /* HBQuranAyaCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBQuranAyaCellView.h; sourceTree = "<group>"; };
+		15FC810A215AB76600A363BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		26D424D59B6B5F1DE5C972E3 /* Pods-QuranBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBookTests/Pods-QuranBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56F01652AF110E8902678F43 /* Pods-QuranBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBook/Pods-QuranBook.release.xcconfig"; sourceTree = "<group>"; };
+		62F15C5453364F82F7FB9850 /* Pods-QuranBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBook/Pods-QuranBook.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD26A07B21BF1CEA4A96E12 /* Pods-QuranBook-QuranBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBook-QuranBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBook-QuranBookTests/Pods-QuranBook-QuranBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		A34B3F3121BC3758CFA085DA /* libPods-QuranBook-QuranBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuranBook-QuranBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD4D34D4B577D0EAFA9029E /* Pods-QuranBook-QuranBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBook-QuranBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBook-QuranBookTests/Pods-QuranBook-QuranBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E1DA60BF755A286898633A /* libPods-QuranBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuranBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E8E38D9C0F19E62FFEAEB8 /* Pods-QuranBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuranBookTests/Pods-QuranBookTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15898394215AB25E001E087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64277E7506E084FA46BA401 /* libPods-QuranBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158983AF215AB260001E087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66D8AE3105E15D1741BA80D /* libPods-QuranBookTests.a in Frameworks */,
+				64843C1423A8275FDF56512E /* libPods-QuranBook-QuranBookTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1509A7F3217385650041235A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				154C13302173B4BE0064DAAE /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		150E8D9521B43FB500908BC9 /* MainSettings */ = {
+			isa = PBXGroup;
+			children = (
+				15211956215C0FB0000BE89D /* HBQuranMainSettingsController.h */,
+				1521194E215C0FB0000BE89D /* HBQuranMainSettingsController.m */,
+				150E8D9621B442E800908BC9 /* HBMainSettingsPresenter.h */,
+				150E8D9721B4433200908BC9 /* HBMainSettingsPresenterImp.h */,
+				150E8D9821B4433200908BC9 /* HBMainSettingsPresenterImp.m */,
+				150E8DA521B478DA00908BC9 /* HBMainSettingsRouter.h */,
+				150E8D9A21B446D700908BC9 /* HBMainSettingsRouterImp.h */,
+				150E8D9B21B446D700908BC9 /* HBMainSettingsRouterImp.m */,
+			);
+			path = MainSettings;
+			sourceTree = "<group>";
+		};
+		1513FAF7217B467400C89173 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1513FB06217B46B500C89173 /* Amiri-Regular.ttf */,
+				1513FB00217B46B400C89173 /* SF-UI-Display-Black.otf */,
+				1513FB0E217B46B600C89173 /* SF-UI-Display-Bold.otf */,
+				1513FAFA217B46B400C89173 /* SF-UI-Display-Heavy.otf */,
+				1513FB0A217B46B500C89173 /* SF-UI-Display-Light.otf */,
+				1513FAFF217B46B400C89173 /* SF-UI-Display-Medium.otf */,
+				1513FB0D217B46B600C89173 /* SF-UI-Display-Regular.otf */,
+				1513FB07217B46B500C89173 /* SF-UI-Display-Semibold.otf */,
+				1513FAF8217B46B400C89173 /* SF-UI-Display-Thin.otf */,
+				1513FB03217B46B500C89173 /* SF-UI-Display-Ultralight.otf */,
+				1513FB04217B46B500C89173 /* SF-UI-Text-Bold.otf */,
+				1513FAFB217B46B400C89173 /* SF-UI-Text-BoldItalic.otf */,
+				1513FB05217B46B500C89173 /* SF-UI-Text-Heavy.otf */,
+				1513FB08217B46B500C89173 /* SF-UI-Text-HeavyItalic.otf */,
+				1513FB09217B46B500C89173 /* SF-UI-Text-Light.otf */,
+				1513FAF9217B46B400C89173 /* SF-UI-Text-LightItalic.otf */,
+				1513FB0B217B46B500C89173 /* SF-UI-Text-Medium.otf */,
+				1513FB01217B46B500C89173 /* SF-UI-Text-MediumItalic.otf */,
+				1513FAFC217B46B400C89173 /* SF-UI-Text-Regular.otf */,
+				1513FB02217B46B500C89173 /* SF-UI-Text-RegularItalic.otf */,
+				1513FB0C217B46B500C89173 /* SF-UI-Text-Semibold.otf */,
+				1513FAFD217B46B400C89173 /* SF-UI-Text-SemiboldItalic.otf */,
+				1513FB0F217B46B600C89173 /* SF-UI-Text-Ultrathin.otf */,
+				1513FAFE217B46B400C89173 /* SF-UI-Text-UltrathinItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		15164B8F21B7215B006A0C40 /* ArabicSettings */ = {
+			isa = PBXGroup;
+			children = (
+				15211953215C0FB0000BE89D /* HBQuranArabicSettingsController.h */,
+				1521195B215C0FB0000BE89D /* HBQuranArabicSettingsController.m */,
+				15164B9021B72214006A0C40 /* HBArabicSettingsPresenter.h */,
+				15164B9121B722F8006A0C40 /* HBArabicSettingsPresenterImp.h */,
+				15164B9221B722F8006A0C40 /* HBArabicSettingsPresenterImp.m */,
+				15AA132921BD60FB00AA67B9 /* TranslateSettings */,
+			);
+			path = ArabicSettings;
+			sourceTree = "<group>";
+		};
+		15211947215C0F76000BE89D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				150E8D9D21B44D2000908BC9 /* HBBaseControllerView.h */,
+				150E8D9E21B44FFB00908BC9 /* HBBaseViewController.h */,
+				150E8D9F21B44FFB00908BC9 /* HBBaseViewController.m */,
+				150E8DA121B4514000908BC9 /* HBBaseTableViewController.h */,
+				150E8DA221B4514000908BC9 /* HBBaseTableViewController.m */,
+				156A55D621C531FC00F93CA0 /* HBBaseRouterImp.h */,
+				156A55D721C531FC00F93CA0 /* HBBaseRouterImp.m */,
+				150E8DA421B4739B00908BC9 /* HBParentPresenterDelegate.h */,
+				150E8D9521B43FB500908BC9 /* MainSettings */,
+				15164B8F21B7215B006A0C40 /* ArabicSettings */,
+				15AA132F21BDA98400AA67B9 /* SoundSettings */,
+				15D315BD21DE2D8100B9D8D0 /* QuranSuras */,
+				152B123C220DFAE30067B791 /* QuranAyas */,
+				15E9F71321613D2A007BE9F3 /* HBParentControllerDelegate.h */,
+				15211952215C0FB0000BE89D /* HBQuranBaseController.h */,
+				1521195A215C0FB0000BE89D /* HBQuranBaseController.m */,
+				15211962215C0FB1000BE89D /* HBQuranNoticeController.h */,
+				1521195C215C0FB0000BE89D /* HBQuranNoticeController.m */,
+				1521195E215C0FB1000BE89D /* HBQuranPlayerController.h */,
+				1521194A215C0FB0000BE89D /* HBQuranPlayerController.m */,
+				15211955215C0FB0000BE89D /* HBQuranProxyController.h */,
+				1521194C215C0FB0000BE89D /* HBQuranProxyController.m */,
+				15211963215C0FB1000BE89D /* HBQuranRearController.h */,
+				15211960215C0FB1000BE89D /* HBQuranRearController.m */,
+				15211949215C0FB0000BE89D /* HBQuranSearchController.h */,
+				15211950215C0FB0000BE89D /* HBQuranSearchController.m */,
+				1521195F215C0FB1000BE89D /* HBQuranWaitController.h */,
+				1521194B215C0FB0000BE89D /* HBQuranWaitController.m */,
+				15211954215C0FB0000BE89D /* HBRevealChildController.h */,
+				15211948215C0FAF000BE89D /* HBRevealChildController.m */,
+				15E9F7212161595D007BE9F3 /* HBTimePickerViewController.h */,
+				15E9F7222161595D007BE9F3 /* HBTimePickerViewController.m */,
+				1515854D217CB1810037677C /* HBQuranGateway.h */,
+				1515854E217CB1810037677C /* HBQuranGateway.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15211972215C1106000BE89D /* Forks */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F75821616922007BE9F3 /* ImageMenuItem */,
+				15211977215C12D3000BE89D /* MagicalRecord */,
+				15211973215C1132000BE89D /* SWRevealViewController */,
+			);
+			path = Forks;
+			sourceTree = "<group>";
+		};
+		15211973215C1132000BE89D /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15211975215C1161000BE89D /* SWRevealViewController.h */,
+				15211974215C1161000BE89D /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		15211977215C12D3000BE89D /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				1521198B215C1306000BE89D /* Categories */,
+				15211978215C1306000BE89D /* Core */,
+				1521198A215C1306000BE89D /* MagicalRecord.h */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		15211978215C1306000BE89D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				15211979215C1306000BE89D /* MagicalRecordInternal.m */,
+				1521197A215C1306000BE89D /* MagicalRecord+iCloud.m */,
+				1521197B215C1306000BE89D /* MagicalRecord+Actions.h */,
+				1521197C215C1306000BE89D /* MagicalRecordLogging.h */,
+				1521197D215C1306000BE89D /* MagicalRecord+ShorthandMethods.h */,
+				1521197E215C1306000BE89D /* MagicalRecord+Setup.m */,
+				1521197F215C1306000BE89D /* MagicalRecord+ErrorHandling.h */,
+				15211980215C1306000BE89D /* MagicalRecord+Options.h */,
+				15211981215C1306000BE89D /* MagicalRecord+Actions.m */,
+				15211982215C1306000BE89D /* MagicalRecord+iCloud.h */,
+				15211983215C1306000BE89D /* MagicalRecordInternal.h */,
+				15211984215C1306000BE89D /* MagicalRecordXcode7CompatibilityMacros.h */,
+				15211985215C1306000BE89D /* MagicalRecord+ShorthandMethods.m */,
+				15211986215C1306000BE89D /* MagicalRecordDeprecationMacros.h */,
+				15211987215C1306000BE89D /* MagicalRecord+Options.m */,
+				15211988215C1306000BE89D /* MagicalRecord+ErrorHandling.m */,
+				15211989215C1306000BE89D /* MagicalRecord+Setup.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1521198B215C1306000BE89D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1521198C215C1306000BE89D /* NSPersistentStore+MagicalRecord.m */,
+				1521198D215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.m */,
+				1521198E215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				1521198F215C1306000BE89D /* NSManagedObject */,
+				1521199A215C1306000BE89D /* NSManagedObjectContext */,
+				152119A5215C1306000BE89D /* DataImport */,
+				152119B4215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.h */,
+				152119B5215C1306000BE89D /* NSPersistentStore+MagicalRecord.h */,
+				152119B6215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1521198F215C1306000BE89D /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				15211990215C1306000BE89D /* NSManagedObject+MagicalFinders.m */,
+				15211991215C1306000BE89D /* NSManagedObject+MagicalDataImport.h */,
+				15211992215C1306000BE89D /* NSManagedObject+MagicalAggregation.h */,
+				15211993215C1306000BE89D /* NSManagedObject+MagicalRecord.m */,
+				15211994215C1306000BE89D /* NSManagedObject+MagicalRequests.h */,
+				15211995215C1306000BE89D /* NSManagedObject+MagicalFinders.h */,
+				15211996215C1306000BE89D /* NSManagedObject+MagicalAggregation.m */,
+				15211997215C1306000BE89D /* NSManagedObject+MagicalDataImport.m */,
+				15211998215C1306000BE89D /* NSManagedObject+MagicalRecord.h */,
+				15211999215C1306000BE89D /* NSManagedObject+MagicalRequests.m */,
+			);
+			path = NSManagedObject;
+			sourceTree = "<group>";
+		};
+		1521199A215C1306000BE89D /* NSManagedObjectContext */ = {
+			isa = PBXGroup;
+			children = (
+				1521199B215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.h */,
+				1521199C215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.h */,
+				1521199D215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.h */,
+				1521199E215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.h */,
+				1521199F215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.m */,
+				152119A0215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.m */,
+				152119A1215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.m */,
+				152119A2215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.h */,
+				152119A3215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.m */,
+				152119A4215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.m */,
+			);
+			path = NSManagedObjectContext;
+			sourceTree = "<group>";
+		};
+		152119A5215C1306000BE89D /* DataImport */ = {
+			isa = PBXGroup;
+			children = (
+				152119A6215C1306000BE89D /* NSNumber+MagicalDataImport.m */,
+				152119A7215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.h */,
+				152119A8215C1306000BE89D /* NSObject+MagicalDataImport.h */,
+				152119A9215C1306000BE89D /* MagicalImportFunctions.h */,
+				152119AA215C1306000BE89D /* NSEntityDescription+MagicalDataImport.h */,
+				152119AB215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.m */,
+				152119AC215C1306000BE89D /* NSString+MagicalDataImport.h */,
+				152119AD215C1306000BE89D /* NSNumber+MagicalDataImport.h */,
+				152119AE215C1306000BE89D /* NSEntityDescription+MagicalDataImport.m */,
+				152119AF215C1306000BE89D /* MagicalImportFunctions.m */,
+				152119B0215C1306000BE89D /* NSObject+MagicalDataImport.m */,
+				152119B1215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.m */,
+				152119B2215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.h */,
+				152119B3215C1306000BE89D /* NSString+MagicalDataImport.m */,
+			);
+			path = DataImport;
+			sourceTree = "<group>";
+		};
+		152119D6215C1491000BE89D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F76521616DDE007BE9F3 /* HBNetConnectionChecker.h */,
+				15E9F76621616DDE007BE9F3 /* HBNetConnectionChecker.m */,
+				15E9F71E216153B9007BE9F3 /* HBCoreDataManager.h */,
+				15E9F71B216153B8007BE9F3 /* HBCoreDataManager.m */,
+				15E9F71D216153B9007BE9F3 /* HBMigrationManager.h */,
+				15E9F71C216153B9007BE9F3 /* HBMigrationManager.m */,
+				15E9F71421613FBC007BE9F3 /* HBProfileManager.h */,
+				15E9F71521613FBC007BE9F3 /* HBProfileManager.m */,
+				152119E0215C1542000BE89D /* HBQuranManager.h */,
+				152119DC215C1542000BE89D /* HBQuranManager.m */,
+				152119DA215C1542000BE89D /* HBQuranSoundManager.h */,
+				152119D8215C1542000BE89D /* HBQuranSoundManager.m */,
+				152119D9215C1542000BE89D /* HBQuranSoundProvider.h */,
+				152119DB215C1542000BE89D /* HBQuranSoundProvider.m */,
+				152119DD215C1542000BE89D /* HBLoadContentManager.h */,
+				152119DF215C1542000BE89D /* HBLoadContentManager.m */,
+				152119DE215C1542000BE89D /* HBBaseLoader.h */,
+				152119E1215C1542000BE89D /* HBBaseLoader.m */,
+				152119E2215C1542000BE89D /* HBQuranSoundLoader.h */,
+				152119D7215C1542000BE89D /* HBQuranSoundLoader.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		152B123C220DFAE30067B791 /* QuranAyas */ = {
+			isa = PBXGroup;
+			children = (
+				15211959215C0FB0000BE89D /* HBQuranAyasController.h */,
+				15211957215C0FB0000BE89D /* HBQuranAyasController.m */,
+				152B123D220DFBA90067B791 /* HBQuranAyasPresenter.h */,
+				152B123E220DFC100067B791 /* HBQuranAyasPresenterImp.h */,
+				152B123F220DFC100067B791 /* HBQuranAyasPresenterImp.m */,
+				1523C1222239726900CFF526 /* HBQuranAyasRouter.h */,
+				1523C1232239733000CFF526 /* HBQuranAyasRouterImp.h */,
+				1523C1242239733000CFF526 /* HBQuranAyasRouterImp.m */,
+			);
+			path = QuranAyas;
+			sourceTree = "<group>";
+		};
+		1559AFAB219CB90F0099BE83 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				1559AFAC219CB98E0099BE83 /* ApplicationAssembly.h */,
+				1559AFAD219CB98E0099BE83 /* ApplicationAssembly.m */,
+				15164B8C21B715CE006A0C40 /* ViewControllersAssembly.h */,
+				15164B8D21B715CE006A0C40 /* ViewControllersAssembly.m */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		1559F299215D66C9007705CA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				157A88642168CF38002C8747 /* AFHTTPSessionManager+HTTPError.h */,
+				157A88652168CF38002C8747 /* AFHTTPSessionManager+HTTPError.m */,
+				15E9F75D21616A21007BE9F3 /* UIView+UIViewController.h */,
+				15E9F75C21616A21007BE9F3 /* UIView+UIViewController.m */,
+				15E9F75521616887007BE9F3 /* UIResponder+FirstResponder.h */,
+				15E9F75621616887007BE9F3 /* UIResponder+FirstResponder.m */,
+				15E9F742216166D3007BE9F3 /* UIView+StatusBar.h */,
+				15E9F743216166D4007BE9F3 /* UIView+StatusBar.m */,
+				15E9F73D2161658A007BE9F3 /* UIColor+Habar.h */,
+				15E9F73C2161658A007BE9F3 /* UIColor+Habar.m */,
+				15E9F73921616091007BE9F3 /* NSMutableAttributedString+HTML.h */,
+				15E9F73821616091007BE9F3 /* NSMutableAttributedString+HTML.m */,
+				15E9F71821615111007BE9F3 /* UIView+UITableViewCell.h */,
+				15E9F71921615111007BE9F3 /* UIView+UITableViewCell.m */,
+				1559F29B215D673D007705CA /* UIAlertController+Habar.h */,
+				1559F29A215D673D007705CA /* UIAlertController+Habar.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1559F29D215D67E1007705CA /* DOM */ = {
+			isa = PBXGroup;
+			children = (
+				158983A3215AB25E001E087A /* QuranBook.xcdatamodeld */,
+				159F4F34218794AD00DF21B8 /* Model1_to_Model2.xcmappingmodel */,
+				15E9F6D721612D76007BE9F3 /* Entities */,
+				1559F29E215D680A007705CA /* Enums */,
+				15E9F72821615D98007BE9F3 /* Models */,
+			);
+			path = DOM;
+			sourceTree = "<group>";
+		};
+		1559F29E215D680A007705CA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F73B21616160007BE9F3 /* HBControllerState.h */,
+				15E9F717216147CB007BE9F3 /* HBQuranItemState.h */,
+				15A0B8B6215FC6B70027D53E /* HBLoadState.h */,
+				15E6194C215FA8970034C1C8 /* HBQuranSoundRepeat.h */,
+				15E6194B215FA8790034C1C8 /* HBQuranSoundEndAction.h */,
+				1559F2A0215D689C007705CA /* HBQuranRearType.h */,
+				1559F29F215D6853007705CA /* HBQuranItemType.h */,
+				1513FB2D217B5AA700C89173 /* HBSuraCellState.h */,
+				1513FB37217B75BB00C89173 /* HBRearCellState.h */,
+				15ECE37C21A98B69005AA9DE /* HBLoadType.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		15647AEF21AADF0E00AD93AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1559AFAA219CB5AA0099BE83 /* HBQuranService.h */,
+				15647AEE21AAD33D00AD93AD /* HBQuranSoundService.h */,
+				15ECE37B21A985F8005AA9DE /* HBLoadContentService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1589838E215AB25E001E087A = {
+			isa = PBXGroup;
+			children = (
+				15266E43223A804A00B329BB /* readme.md */,
+				15898399215AB25E001E087A /* QuranBook */,
+				158983B5215AB260001E087A /* QuranBookTests */,
+				15898398215AB25E001E087A /* Products */,
+				69618F9421D833E64B1F3DC4 /* Pods */,
+				944C99AE02DDF979B1AB9EBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15898398215AB25E001E087A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15898397215AB25E001E087A /* QuranBook.app */,
+				158983B2215AB260001E087A /* QuranBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15898399215AB25E001E087A /* QuranBook */ = {
+			isa = PBXGroup;
+			children = (
+				1589839A215AB25E001E087A /* AppDelegate.h */,
+				1589839B215AB25E001E087A /* AppDelegate.m */,
+				15211972215C1106000BE89D /* Forks */,
+				1559F299215D66C9007705CA /* Categories */,
+				1509A7F3217385650041235A /* Localization */,
+				15647AEF21AADF0E00AD93AD /* Services */,
+				152119D6215C1491000BE89D /* Managers */,
+				15211947215C0F76000BE89D /* ViewControllers */,
+				15E9F72421615A7E007BE9F3 /* Cells */,
+				15E9F7452161676E007BE9F3 /* Views */,
+				1559F29D215D67E1007705CA /* DOM */,
+				15E6194D215FA8EC0034C1C8 /* System */,
+				1559AFAB219CB90F0099BE83 /* Assemblies */,
+				15FC8109215AB67B00A363BF /* Resources */,
+				15E6194E215FA9810034C1C8 /* Supporting Files */,
+			);
+			path = QuranBook;
+			sourceTree = "<group>";
+		};
+		158983B5215AB260001E087A /* QuranBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				158983B6215AB260001E087A /* QuranBookTests.m */,
+			);
+			path = QuranBookTests;
+			sourceTree = "<group>";
+		};
+		15AA132921BD60FB00AA67B9 /* TranslateSettings */ = {
+			isa = PBXGroup;
+			children = (
+				1521194F215C0FB0000BE89D /* HBQuranTranslateSettingsController.h */,
+				1521194D215C0FB0000BE89D /* HBQuranTranslateSettingsController.m */,
+				15AA132A21BD615C00AA67B9 /* HBTranslateSettingsPresenter.h */,
+				15AA132B21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.h */,
+				15AA132C21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.m */,
+			);
+			path = TranslateSettings;
+			sourceTree = "<group>";
+		};
+		15AA132F21BDA98400AA67B9 /* SoundSettings */ = {
+			isa = PBXGroup;
+			children = (
+				15211961215C0FB1000BE89D /* HBQuranSoundSettingsController.h */,
+				1521195D215C0FB1000BE89D /* HBQuranSoundSettingsController.m */,
+				15AA133021BDA9D800AA67B9 /* HBSoundSettingsPresenter.h */,
+				15AA133121BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.h */,
+				15AA133221BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.m */,
+			);
+			path = SoundSettings;
+			sourceTree = "<group>";
+		};
+		15D315BD21DE2D8100B9D8D0 /* QuranSuras */ = {
+			isa = PBXGroup;
+			children = (
+				15211951215C0FB0000BE89D /* HBQuranSurasController.h */,
+				15211958215C0FB0000BE89D /* HBQuranSurasController.m */,
+				15D315BE21DE2DFA00B9D8D0 /* HBQuranSurasPresenter.h */,
+				15D315BF21DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.h */,
+				15D315C021DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.m */,
+				15DDFA18220CD4210069B1D0 /* HBQuranSurasRouter.h */,
+				15DDFA19220CD4830069B1D0 /* HBQuranSurasRouterImp.h */,
+				15DDFA1A220CD4830069B1D0 /* HBQuranSurasRouterImp.m */,
+			);
+			path = QuranSuras;
+			sourceTree = "<group>";
+		};
+		15E6194D215FA8EC0034C1C8 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F75A216169AA007BE9F3 /* HBFileUtils.h */,
+				15E9F759216169AA007BE9F3 /* HBFileUtils.m */,
+				15E9F73F2161665C007BE9F3 /* HBTimeUtils.h */,
+				15E9F7402161665C007BE9F3 /* HBTimeUtils.m */,
+				15E6194F215FAC1C0034C1C8 /* HBMacros.h */,
+				15E61950215FAD430034C1C8 /* HBConstants.h */,
+				1590FFEC2168E2160023B71A /* HBSystem.h */,
+				1590FFED2168E2160023B71A /* HBSystem.m */,
+				15EFAE2C216FDC7400F1E471 /* HBUIStyleManager.h */,
+				15EFAE2D216FDC7400F1E471 /* HBUIStyleManager.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		15E6194E215FA9810034C1C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1590FFE82168D4380023B71A /* Info.plist */,
+				1590FFE92168D4390023B71A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E9F6D721612D76007BE9F3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F6F021612F50007BE9F3 /* _HBAyaEntity.h */,
+				15E9F6FC21612F51007BE9F3 /* _HBAyaEntity.m */,
+				15E9F6E721612F4F007BE9F3 /* _HBAyaExtraEntity.h */,
+				15E9F6E121612F4F007BE9F3 /* _HBAyaExtraEntity.m */,
+				15E9F6FD21612F51007BE9F3 /* _HBAyaHighlightEntity.h */,
+				15E9F6E521612F4F007BE9F3 /* _HBAyaHighlightEntity.m */,
+				15E9F6FE21612F51007BE9F3 /* _HBAyaSoundEntity.h */,
+				15E9F6F321612F50007BE9F3 /* _HBAyaSoundEntity.m */,
+				15E9F6EB21612F4F007BE9F3 /* _HBQuranBaseEntity.h */,
+				15E9F6F621612F50007BE9F3 /* _HBQuranBaseEntity.m */,
+				15E9F6E321612F4F007BE9F3 /* _HBQuranImageEntity.h */,
+				15E9F6DD21612F4F007BE9F3 /* _HBQuranImageEntity.m */,
+				15E9F6F421612F50007BE9F3 /* _HBQuranItemEntity.h */,
+				15E9F6DF21612F4F007BE9F3 /* _HBQuranItemEntity.m */,
+				15E9F6F821612F50007BE9F3 /* _HBQuranSoundEntity.h */,
+				15E9F6ED21612F50007BE9F3 /* _HBQuranSoundEntity.m */,
+				15E9F6E621612F4F007BE9F3 /* _HBSuraEntity.h */,
+				15E9F6F721612F50007BE9F3 /* _HBSuraEntity.m */,
+				15E9F6DE21612F4F007BE9F3 /* HBAyaEntity.h */,
+				15E9F6E821612F4F007BE9F3 /* HBAyaEntity.m */,
+				15E9F6EF21612F50007BE9F3 /* HBAyaExtraEntity.h */,
+				15E9F6FF21612F51007BE9F3 /* HBAyaExtraEntity.m */,
+				15E9F6E221612F4F007BE9F3 /* HBAyaHighlightEntity.h */,
+				15E9F6F921612F50007BE9F3 /* HBAyaHighlightEntity.m */,
+				15E9F6F521612F50007BE9F3 /* HBAyaSoundEntity.h */,
+				15E9F6E921612F4F007BE9F3 /* HBAyaSoundEntity.m */,
+				15E9F6FA21612F51007BE9F3 /* HBQuranBaseEntity.h */,
+				15E9F6EA21612F4F007BE9F3 /* HBQuranBaseEntity.m */,
+				15E9F70021612F51007BE9F3 /* HBQuranImageEntity.h */,
+				15E9F6EE21612F50007BE9F3 /* HBQuranImageEntity.m */,
+				15E9F6F121612F50007BE9F3 /* HBQuranItemEntity.h */,
+				15E9F6E421612F4F007BE9F3 /* HBQuranItemEntity.m */,
+				15E9F6EC21612F50007BE9F3 /* HBQuranSoundEntity.h */,
+				15E9F6E021612F4F007BE9F3 /* HBQuranSoundEntity.m */,
+				15E9F6FB21612F51007BE9F3 /* HBSuraEntity.h */,
+				15E9F6F221612F50007BE9F3 /* HBSuraEntity.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		15E9F72421615A7E007BE9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15DDFA1D220CDF400069B1D0 /* HBQuranSearchSuraCellView.h */,
+				15E9F72521615AAD007BE9F3 /* HBQuranSearchSuraCell.h */,
+				15E9F72621615AAD007BE9F3 /* HBQuranSearchSuraCell.m */,
+				15DDFA1C220CD8180069B1D0 /* HBQuranSuraCellView.h */,
+				1513FB2A217B5A2900C89173 /* HBQuranSuraCell.h */,
+				1513FB2B217B5A2900C89173 /* HBQuranSuraCell.m */,
+				15F492B32221626C00A10E1C /* HBQuranAyaCellView.h */,
+				1513FB2E217B6B0D00C89173 /* HBQuranAyaCell.h */,
+				1513FB2F217B6B0D00C89173 /* HBQuranAyaCell.m */,
+				1537C62821BC04D2007773E9 /* HBQuranArabicItemCellView.h */,
+				1513FB31217B742500C89173 /* HBQuranArabicItemCell.h */,
+				1513FB32217B742500C89173 /* HBQuranArabicItemCell.m */,
+				1513FB34217B753B00C89173 /* HBQuranRearCell.h */,
+				1513FB35217B753B00C89173 /* HBQuranRearCell.m */,
+				154F4D9021C6BF2F0080F658 /* HBQuranSoundItemCellView.h */,
+				1515853E217C91FF0037677C /* HBQuranSoundItemCell.h */,
+				1515853F217C91FF0037677C /* HBQuranSoundItemCell.m */,
+				1579596821C8176D001FFFDC /* HBQuranSoundSwitchCellView.h */,
+				15158541217C96300037677C /* HBQuranSoundSwitchCell.h */,
+				15158542217C96300037677C /* HBQuranSoundSwitchCell.m */,
+				1579596921C81D98001FFFDC /* HBQuranSoundOptCellView.h */,
+				15158544217C96B70037677C /* HBQuranSoundOptCell.h */,
+				15158545217C96B70037677C /* HBQuranSoundOptCell.m */,
+				15AA132E21BD662600AA67B9 /* HBQuranItemCellView.h */,
+				15158547217C97AB0037677C /* HBQuranItemCell.h */,
+				15158548217C97AB0037677C /* HBQuranItemCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		15E9F72821615D98007BE9F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F72E21615E08007BE9F3 /* HBAyaModel.h */,
+				15E9F72B21615E08007BE9F3 /* HBAyaModel.m */,
+				15E9F72D21615E08007BE9F3 /* HBAyaSoundModel.h */,
+				15E9F72C21615E08007BE9F3 /* HBAyaSoundModel.m */,
+				15E9F72A21615E08007BE9F3 /* HBHighlightModel.h */,
+				15E9F72F21615E08007BE9F3 /* HBHighlightModel.m */,
+				15E9F73221615E09007BE9F3 /* HBJuzModel.h */,
+				15E9F73021615E08007BE9F3 /* HBJuzModel.m */,
+				15E9F73121615E09007BE9F3 /* HBSuraModel.h */,
+				15E9F72921615E08007BE9F3 /* HBSuraModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15E9F7452161676E007BE9F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F75F21616A9A007BE9F3 /* HBCircleProgressView.h */,
+				15E9F76021616A9A007BE9F3 /* HBCircleProgressView.m */,
+				15E9F74E216167AC007BE9F3 /* QuranMenuView.h */,
+				15E9F74C216167AC007BE9F3 /* QuranMenuView.m */,
+				15E9F747216167AC007BE9F3 /* QuranMenuView.xib */,
+				15E9F74A216167AC007BE9F3 /* QuranPlayerSmallView.h */,
+				15E9F74B216167AC007BE9F3 /* QuranPlayerSmallView.m */,
+				15E9F74D216167AC007BE9F3 /* QuranPlayerSmallView.xib */,
+				15E9F749216167AC007BE9F3 /* QuranTopScrollView.h */,
+				15E9F748216167AC007BE9F3 /* QuranTopScrollView.m */,
+				15E9F746216167AC007BE9F3 /* QuranTopScrollView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15E9F75821616922007BE9F3 /* ImageMenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				15E9F76321616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.h */,
+				15E9F76221616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.m */,
+			);
+			path = ImageMenuItem;
+			sourceTree = "<group>";
+		};
+		15FC8109215AB67B00A363BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1513FAF7217B467400C89173 /* Fonts */,
+				15FC810A215AB76600A363BF /* Main.storyboard */,
+				15DDD36B21766E8C00B03A2F /* LaunchScreen.storyboard */,
+				158983A6215AB260001E087A /* Assets.xcassets */,
+				1513FB28217B58E100C89173 /* Juzes.plist */,
+				15DDD36D21766EA800B03A2F /* Quran.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69618F9421D833E64B1F3DC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F15C5453364F82F7FB9850 /* Pods-QuranBook.debug.xcconfig */,
+				56F01652AF110E8902678F43 /* Pods-QuranBook.release.xcconfig */,
+				26D424D59B6B5F1DE5C972E3 /* Pods-QuranBookTests.debug.xcconfig */,
+				C3E8E38D9C0F19E62FFEAEB8 /* Pods-QuranBookTests.release.xcconfig */,
+				ACD4D34D4B577D0EAFA9029E /* Pods-QuranBook-QuranBookTests.debug.xcconfig */,
+				7AD26A07B21BF1CEA4A96E12 /* Pods-QuranBook-QuranBookTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		944C99AE02DDF979B1AB9EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C2C1642CA1CF5A39953F43E /* libPods-QuranBook.a */,
+				B3E1DA60BF755A286898633A /* libPods-QuranBookTests.a */,
+				A34B3F3121BC3758CFA085DA /* libPods-QuranBook-QuranBookTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15898396215AB25E001E087A /* QuranBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158983BB215AB260001E087A /* Build configuration list for PBXNativeTarget "QuranBook" */;
+			buildPhases = (
+				2C8A906C2E6A085E20C2986A /* [CP] Check Pods Manifest.lock */,
+				15898393215AB25E001E087A /* Sources */,
+				15898394215AB25E001E087A /* Frameworks */,
+				15898395215AB25E001E087A /* Resources */,
+				4035BE536999FA5DFE76D279 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuranBook;
+			productName = QuranBook;
+			productReference = 15898397215AB25E001E087A /* QuranBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		158983B1215AB260001E087A /* QuranBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158983BE215AB260001E087A /* Build configuration list for PBXNativeTarget "QuranBookTests" */;
+			buildPhases = (
+				E5C7D9B531B1EDCE1BCAFA61 /* [CP] Check Pods Manifest.lock */,
+				158983AE215AB260001E087A /* Sources */,
+				158983AF215AB260001E087A /* Frameworks */,
+				158983B0215AB260001E087A /* Resources */,
+				DE04C92101354016AC63C82A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				158983B4215AB260001E087A /* PBXTargetDependency */,
+			);
+			name = QuranBookTests;
+			productName = QuranBookTests;
+			productReference = 158983B2215AB260001E087A /* QuranBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1589838F215AB25E001E087A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Соколов Георгий";
+				TargetAttributes = {
+					15898396215AB25E001E087A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					158983B1215AB260001E087A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 15898396215AB25E001E087A;
+					};
+					15E9F6D821612E53007BE9F3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 15898392215AB25E001E087A /* Build configuration list for PBXProject "QuranBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 1589838E215AB25E001E087A;
+			productRefGroup = 15898398215AB25E001E087A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15898396215AB25E001E087A /* QuranBook */,
+				158983B1215AB260001E087A /* QuranBookTests */,
+				15E9F6D821612E53007BE9F3 /* mogenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15898395215AB25E001E087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FC810B215AB76600A363BF /* Main.storyboard in Resources */,
+				158983A7215AB260001E087A /* Assets.xcassets in Resources */,
+				1513FB25217B46B600C89173 /* SF-UI-Display-Regular.otf in Resources */,
+				1513FB11217B46B600C89173 /* SF-UI-Text-LightItalic.otf in Resources */,
+				1513FB1B217B46B600C89173 /* SF-UI-Display-Ultralight.otf in Resources */,
+				1513FB1A217B46B600C89173 /* SF-UI-Text-RegularItalic.otf in Resources */,
+				1513FB22217B46B600C89173 /* SF-UI-Display-Light.otf in Resources */,
+				1513FB1D217B46B600C89173 /* SF-UI-Text-Heavy.otf in Resources */,
+				1513FB20217B46B600C89173 /* SF-UI-Text-HeavyItalic.otf in Resources */,
+				154C13322173B4BE0064DAAE /* Localizable.strings in Resources */,
+				1513FB21217B46B600C89173 /* SF-UI-Text-Light.otf in Resources */,
+				1513FB19217B46B600C89173 /* SF-UI-Text-MediumItalic.otf in Resources */,
+				1513FB17217B46B600C89173 /* SF-UI-Display-Medium.otf in Resources */,
+				1513FB27217B46B600C89173 /* SF-UI-Text-Ultrathin.otf in Resources */,
+				1513FB23217B46B600C89173 /* SF-UI-Text-Medium.otf in Resources */,
+				15E9F74F216167AC007BE9F3 /* QuranTopScrollView.xib in Resources */,
+				1513FB26217B46B600C89173 /* SF-UI-Display-Bold.otf in Resources */,
+				1513FB10217B46B600C89173 /* SF-UI-Display-Thin.otf in Resources */,
+				15DDD36E21766EA800B03A2F /* Quran.plist in Resources */,
+				1513FB12217B46B600C89173 /* SF-UI-Display-Heavy.otf in Resources */,
+				1513FB1E217B46B600C89173 /* Amiri-Regular.ttf in Resources */,
+				1513FB29217B58E100C89173 /* Juzes.plist in Resources */,
+				15DDD36C21766E8C00B03A2F /* LaunchScreen.storyboard in Resources */,
+				15E9F750216167AC007BE9F3 /* QuranMenuView.xib in Resources */,
+				1513FB24217B46B600C89173 /* SF-UI-Text-Semibold.otf in Resources */,
+				1513FB18217B46B600C89173 /* SF-UI-Display-Black.otf in Resources */,
+				1513FB1C217B46B600C89173 /* SF-UI-Text-Bold.otf in Resources */,
+				1513FB13217B46B600C89173 /* SF-UI-Text-BoldItalic.otf in Resources */,
+				1513FB14217B46B600C89173 /* SF-UI-Text-Regular.otf in Resources */,
+				1513FB1F217B46B600C89173 /* SF-UI-Display-Semibold.otf in Resources */,
+				1513FB16217B46B600C89173 /* SF-UI-Text-UltrathinItalic.otf in Resources */,
+				1513FB15217B46B600C89173 /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				15266E44223A804A00B329BB /* readme.md in Resources */,
+				15E9F754216167AC007BE9F3 /* QuranPlayerSmallView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158983B0215AB260001E087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E9F6DC21612E6A007BE9F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator -m QuranBook/DOM/QuranBook.xcdatamodeld -O QuranBook/DOM/Entities --template-var arc=true\n";
+		};
+		2C8A906C2E6A085E20C2986A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4035BE536999FA5DFE76D279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuranBook/Pods-QuranBook-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuranBook/Pods-QuranBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE04C92101354016AC63C82A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuranBook-QuranBookTests/Pods-QuranBook-QuranBookTests-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuranBook-QuranBookTests/Pods-QuranBook-QuranBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C7D9B531B1EDCE1BCAFA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranBook-QuranBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15898393215AB25E001E087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E9F70C21612F51007BE9F3 /* HBSuraEntity.m in Sources */,
+				152119C5215C1306000BE89D /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				15E9F73621615E09007BE9F3 /* HBHighlightModel.m in Sources */,
+				152119B9215C1306000BE89D /* MagicalRecord+Setup.m in Sources */,
+				15E9F70721612F51007BE9F3 /* HBAyaEntity.m in Sources */,
+				152119CC215C1306000BE89D /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				1521196B215C0FB1000BE89D /* HBQuranAyasController.m in Sources */,
+				152119D1215C1306000BE89D /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				15E9F720216153B9007BE9F3 /* HBMigrationManager.m in Sources */,
+				152119CA215C1306000BE89D /* NSNumber+MagicalDataImport.m in Sources */,
+				15E9F70321612F51007BE9F3 /* HBQuranSoundEntity.m in Sources */,
+				152119C4215C1306000BE89D /* NSManagedObject+MagicalRequests.m in Sources */,
+				156A55D821C531FC00F93CA0 /* HBBaseRouterImp.m in Sources */,
+				152119B8215C1306000BE89D /* MagicalRecord+iCloud.m in Sources */,
+				15E9F71621613FBC007BE9F3 /* HBProfileManager.m in Sources */,
+				15211969215C0FB1000BE89D /* HBQuranMainSettingsController.m in Sources */,
+				15AA132D21BD61F300AA67B9 /* HBTranslateSettingsPresenterImp.m in Sources */,
+				152119E8215C1542000BE89D /* HBBaseLoader.m in Sources */,
+				1521196C215C0FB1000BE89D /* HBQuranSurasController.m in Sources */,
+				15E9F73721615E09007BE9F3 /* HBJuzModel.m in Sources */,
+				152119BA215C1306000BE89D /* MagicalRecord+Actions.m in Sources */,
+				1513FB30217B6B0D00C89173 /* HBQuranAyaCell.m in Sources */,
+				15E9F73421615E09007BE9F3 /* HBAyaModel.m in Sources */,
+				15211965215C0FB1000BE89D /* HBQuranPlayerController.m in Sources */,
+				15211970215C0FB1000BE89D /* HBQuranSoundSettingsController.m in Sources */,
+				15211976215C1161000BE89D /* SWRevealViewController.m in Sources */,
+				1559AFAE219CB98E0099BE83 /* ApplicationAssembly.m in Sources */,
+				150E8D9C21B446D700908BC9 /* HBMainSettingsRouterImp.m in Sources */,
+				15E9F70921612F51007BE9F3 /* HBQuranBaseEntity.m in Sources */,
+				1513FB36217B753B00C89173 /* HBQuranRearCell.m in Sources */,
+				152119C2215C1306000BE89D /* NSManagedObject+MagicalAggregation.m in Sources */,
+				1589839C215AB25E001E087A /* AppDelegate.m in Sources */,
+				15E9F75721616887007BE9F3 /* UIResponder+FirstResponder.m in Sources */,
+				15E9F70221612F51007BE9F3 /* _HBQuranItemEntity.m in Sources */,
+				152119C3215C1306000BE89D /* NSManagedObject+MagicalDataImport.m in Sources */,
+				15E9F76721616DDE007BE9F3 /* HBNetConnectionChecker.m in Sources */,
+				150E8DA321B4514000908BC9 /* HBBaseTableViewController.m in Sources */,
+				15E9F744216166D4007BE9F3 /* UIView+StatusBar.m in Sources */,
+				152119BB215C1306000BE89D /* MagicalRecord+ShorthandMethods.m in Sources */,
+				15AA133321BDAA1000AA67B9 /* HBSoundSettingsPresenterImp.m in Sources */,
+				15211967215C0FB1000BE89D /* HBQuranProxyController.m in Sources */,
+				15164B9321B722F8006A0C40 /* HBArabicSettingsPresenterImp.m in Sources */,
+				15E9F71F216153B9007BE9F3 /* HBCoreDataManager.m in Sources */,
+				15211968215C0FB1000BE89D /* HBQuranTranslateSettingsController.m in Sources */,
+				15E9F70821612F51007BE9F3 /* HBAyaSoundEntity.m in Sources */,
+				15E9F70E21612F51007BE9F3 /* _HBQuranBaseEntity.m in Sources */,
+				150E8D9921B4433200908BC9 /* HBMainSettingsPresenterImp.m in Sources */,
+				152119C8215C1306000BE89D /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
+				152119E4215C1542000BE89D /* HBQuranSoundManager.m in Sources */,
+				15E9F7412161665D007BE9F3 /* HBTimeUtils.m in Sources */,
+				15164B8E21B715CE006A0C40 /* ViewControllersAssembly.m in Sources */,
+				15E9F71121612F51007BE9F3 /* _HBAyaEntity.m in Sources */,
+				15211966215C0FB1000BE89D /* HBQuranWaitController.m in Sources */,
+				152119BC215C1306000BE89D /* MagicalRecord+Options.m in Sources */,
+				152119E5215C1542000BE89D /* HBQuranSoundProvider.m in Sources */,
+				1559F29C215D673D007705CA /* UIAlertController+Habar.m in Sources */,
+				15E9F70B21612F51007BE9F3 /* HBQuranImageEntity.m in Sources */,
+				152119CB215C1306000BE89D /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				1513FB33217B742500C89173 /* HBQuranArabicItemCell.m in Sources */,
+				15E9F70621612F51007BE9F3 /* _HBAyaHighlightEntity.m in Sources */,
+				15E9F7232161595E007BE9F3 /* HBTimePickerViewController.m in Sources */,
+				15E9F73521615E09007BE9F3 /* HBAyaSoundModel.m in Sources */,
+				15E9F75E21616A21007BE9F3 /* UIView+UIViewController.m in Sources */,
+				15E9F71221612F51007BE9F3 /* HBAyaExtraEntity.m in Sources */,
+				1523C1252239733000CFF526 /* HBQuranAyasRouterImp.m in Sources */,
+				15E9F752216167AC007BE9F3 /* QuranPlayerSmallView.m in Sources */,
+				152119CD215C1306000BE89D /* MagicalImportFunctions.m in Sources */,
+				152119E7215C1542000BE89D /* HBLoadContentManager.m in Sources */,
+				1521196D215C0FB1000BE89D /* HBQuranBaseController.m in Sources */,
+				15211971215C0FB1000BE89D /* HBQuranRearController.m in Sources */,
+				15DDFA1B220CD4830069B1D0 /* HBQuranSurasRouterImp.m in Sources */,
+				15158543217C96300037677C /* HBQuranSoundSwitchCell.m in Sources */,
+				15211964215C0FB1000BE89D /* HBRevealChildController.m in Sources */,
+				152119C9215C1306000BE89D /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				152B1240220DFC100067B791 /* HBQuranAyasPresenterImp.m in Sources */,
+				15E9F751216167AC007BE9F3 /* QuranTopScrollView.m in Sources */,
+				15E9F753216167AC007BE9F3 /* QuranMenuView.m in Sources */,
+				152119C6215C1306000BE89D /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				15158549217C97AB0037677C /* HBQuranItemCell.m in Sources */,
+				152119D0215C1306000BE89D /* NSString+MagicalDataImport.m in Sources */,
+				152119CE215C1306000BE89D /* NSObject+MagicalDataImport.m in Sources */,
+				15E9F76121616A9A007BE9F3 /* HBCircleProgressView.m in Sources */,
+				15E9F73E2161658A007BE9F3 /* UIColor+Habar.m in Sources */,
+				15E9F71021612F51007BE9F3 /* HBAyaHighlightEntity.m in Sources */,
+				15158540217C91FF0037677C /* HBQuranSoundItemCell.m in Sources */,
+				152119BD215C1306000BE89D /* MagicalRecord+ErrorHandling.m in Sources */,
+				15E9F71A21615111007BE9F3 /* UIView+UITableViewCell.m in Sources */,
+				152119C0215C1306000BE89D /* NSManagedObject+MagicalFinders.m in Sources */,
+				1590FFEB2168D4390023B71A /* main.m in Sources */,
+				15E9F72721615AAD007BE9F3 /* HBQuranSearchSuraCell.m in Sources */,
+				1515854F217CB1810037677C /* HBQuranGateway.m in Sources */,
+				15158546217C96B70037677C /* HBQuranSoundOptCell.m in Sources */,
+				152119E6215C1542000BE89D /* HBQuranManager.m in Sources */,
+				152119B7215C1306000BE89D /* MagicalRecordInternal.m in Sources */,
+				150E8DA021B44FFB00908BC9 /* HBBaseViewController.m in Sources */,
+				15E9F70421612F51007BE9F3 /* _HBAyaExtraEntity.m in Sources */,
+				152119C1215C1306000BE89D /* NSManagedObject+MagicalRecord.m in Sources */,
+				157A88662168CF38002C8747 /* AFHTTPSessionManager+HTTPError.m in Sources */,
+				152119BF215C1306000BE89D /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				15D315C121DE2E7800B9D8D0 /* HBQuranSurasPresenterImp.m in Sources */,
+				1521196F215C0FB1000BE89D /* HBQuranNoticeController.m in Sources */,
+				15EFAE2E216FDC7400F1E471 /* HBUIStyleManager.m in Sources */,
+				152119E3215C1542000BE89D /* HBQuranSoundLoader.m in Sources */,
+				158983A5215AB25E001E087A /* QuranBook.xcdatamodeld in Sources */,
+				15E9F73A21616091007BE9F3 /* NSMutableAttributedString+HTML.m in Sources */,
+				15E9F76421616B7B007BE9F3 /* UIMenuItem+CXAImageSupport.m in Sources */,
+				15E9F70A21612F51007BE9F3 /* _HBQuranSoundEntity.m in Sources */,
+				15E9F73321615E09007BE9F3 /* HBSuraModel.m in Sources */,
+				15E9F70F21612F51007BE9F3 /* _HBSuraEntity.m in Sources */,
+				1521196E215C0FB1000BE89D /* HBQuranArabicSettingsController.m in Sources */,
+				1513FB2C217B5A2900C89173 /* HBQuranSuraCell.m in Sources */,
+				159F4F35218794AD00DF21B8 /* Model1_to_Model2.xcmappingmodel in Sources */,
+				1521196A215C0FB1000BE89D /* HBQuranSearchController.m in Sources */,
+				15E9F70D21612F51007BE9F3 /* _HBAyaSoundEntity.m in Sources */,
+				15E9F70521612F51007BE9F3 /* HBQuranItemEntity.m in Sources */,
+				152119CF215C1306000BE89D /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				152119C7215C1306000BE89D /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				15E9F70121612F51007BE9F3 /* _HBQuranImageEntity.m in Sources */,
+				152119BE215C1306000BE89D /* NSPersistentStore+MagicalRecord.m in Sources */,
+				15E9F75B216169AA007BE9F3 /* HBFileUtils.m in Sources */,
+				1590FFEE2168E2160023B71A /* HBSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158983AE215AB260001E087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158983B7215AB260001E087A /* QuranBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		158983B4215AB260001E087A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15898396215AB25E001E087A /* QuranBook */;
+			targetProxy = 158983B3215AB260001E087A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		154C13302173B4BE0064DAAE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154C13312173B4BE0064DAAE /* Base */,
+				154C13332173B4C50064DAAE /* en */,
+				154C13342173B4C60064DAAE /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158983B9215AB260001E087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		158983BA215AB260001E087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		158983BC215AB260001E087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F15C5453364F82F7FB9850 /* Pods-QuranBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				INFOPLIST_FILE = QuranBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sbsoft.QuranBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		158983BD215AB260001E087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F01652AF110E8902678F43 /* Pods-QuranBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				INFOPLIST_FILE = QuranBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sbsoft.QuranBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		158983BF215AB260001E087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD4D34D4B577D0EAFA9029E /* Pods-QuranBook-QuranBookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				INFOPLIST_FILE = QuranBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sbsoft.QuranBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranBook.app/QuranBook";
+			};
+			name = Debug;
+		};
+		158983C0215AB260001E087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD26A07B21BF1CEA4A96E12 /* Pods-QuranBook-QuranBookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				INFOPLIST_FILE = QuranBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sbsoft.QuranBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranBook.app/QuranBook";
+			};
+			name = Release;
+		};
+		15E9F6DA21612E53007BE9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15E9F6DB21612E53007BE9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS2NM2CT2U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15898392215AB25E001E087A /* Build configuration list for PBXProject "QuranBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158983B9215AB260001E087A /* Debug */,
+				158983BA215AB260001E087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158983BB215AB260001E087A /* Build configuration list for PBXNativeTarget "QuranBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158983BC215AB260001E087A /* Debug */,
+				158983BD215AB260001E087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158983BE215AB260001E087A /* Build configuration list for PBXNativeTarget "QuranBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158983BF215AB260001E087A /* Debug */,
+				158983C0215AB260001E087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E9F6D921612E53007BE9F3 /* Build configuration list for PBXAggregateTarget "mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E9F6DA21612E53007BE9F3 /* Debug */,
+				15E9F6DB21612E53007BE9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		158983A3215AB25E001E087A /* QuranBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				159F4F332187942700DF21B8 /* QuranBook 2.xcdatamodel */,
+				158983A4215AB25E001E087A /* QuranBook.xcdatamodel */,
+			);
+			currentVersion = 159F4F332187942700DF21B8 /* QuranBook 2.xcdatamodel */;
+			path = QuranBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1589838F215AB25E001E087A /* Project object */;
+}

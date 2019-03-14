@@ -1,0 +1,346 @@
+/*
+ Localizable.strings
+ QuranBook
+ 
+ Created by Соколов Георгий on 14/10/2018.
+ Copyright © 2018 Соколов Георгий. All rights reserved.
+ */
+
+/* Кнопка Назад */
+"ButtonBack" = "Back";
+
+/* Кнопка Начать общение */
+"ButtonBeginCommun" = "START >";
+
+/* Кнопка Отмена */
+"ButtonCancel" = "Cancel";
+
+/* Кнопка Изменить */
+"ButtonChange" = "Edit";
+
+/* Кнопка Изменить фото пользователя */
+"ButtonChangePhoto" = "Edit user's photo";
+
+/* Кнопка Готово */
+"ButtonDone" = "Done";
+
+/* Конпка: Редактировать */
+"ButtonEdit" = "Edit";
+
+/* Кнопка Сохранить */
+"ButtonSave" = "Save";
+
+/* Кнопка: Выйти из аккаунта */
+"ButtonLogout" = "Logout";
+
+/* Кнопка Далее */
+"ButtonNext" = "Next";
+
+/* Кнопка OK */
+"ButtonOk" = "Ok";
+
+/* Кнопка Загрузить  */
+"ButtonLoad" = "Load";
+
+/* Кнопка: Очистить чат */
+"ButtonClearChat" = "Clear chat";
+
+/* Кнопка: Очистить чат - подтверждение */
+"ButtonClearChatСonfirm" = "Remove messages?";
+
+/* Кнопка: Удалить чат - подтверждение */
+"ButtonRemoveChatСonfirm" = "Remove chat?";
+
+/* Кнопка: Удалить чат */
+"ButtonDeleteChat" = "Delete chat";
+
+/* Кнопка: Да */
+"ButtonYes" = "Yes";
+
+/* Кнопка: Нет */
+"ButtonNo" = "No";
+
+/* Заголовок алерта: Внимание */
+"CaptionAttention" = "Attention";
+
+/* Заголовок сообщения об ошибке */
+"CaptionError" = "Error";
+
+/* Заголовок Удалить */
+"DeleteTitle" = "Delete";
+
+/* Пункт меню: Выделение цветом */
+"HighlightingMenuItem" = "Highlighting";
+
+/* Переустановить приложение */
+"ReinstallRequest" = "Sorry, you need to remove current version and reinstall application";
+
+/* Заголовок: Поиск */
+"SearchTitle" = "Search";
+
+/* Сообщение: Данные успешно загружены. */
+"SuccessfullyLoadedMessage" = "The data was successfully loaded.";
+
+/* Заголовок: Коран */
+"QuranTitle" = "Quran";
+
+/* Наименование аята: Аят */
+"QuranAyaName" = "Aya";
+
+/* Настройки корана пункт: Арабский текст */
+"QuranSettingsArabicTitle" = "Arabic text";
+
+/* Настройки корана пункт: Таджвид */
+"QuranSettingsTajwidTitle" = "Tajwid";
+
+/* Настройки корана пункт: Перевод */
+"QuranSettingsTranslateTitle" = "Translation";
+
+/* Настройки корана пункт: Уведомления */
+"QuranSettingsNotificationTitle" = "Notifications";
+
+/* Настройки корана пункт: Пометить все цитаты как прочитанные */
+"QuranSettingsMarkQuotesTitle" = "Mark all quotes as read";
+
+/* Настройки корана секция: АЯТ НА КАЖДЫЙ ДЕНЬ */
+"QuranSettingSection1" = "A VERSE FOR EACH DAY";
+
+/* Предупреждение: Необходимо произвести первоначальную загрузку данных  */
+"QuranFirstLoadAlert" = "It is necessary to produce the initial load of the Koran. Upload data size %ld Kb?";
+
+/* Сообщение об ошибке: При загрузке данных возникла ошибка: %@. Необходимо произвести загрузку повторно. */
+"QuranLoadError" = "When loading data error occurred: %@ You need to boot again.";
+
+/* Заголовок контрола настроек транслитерации и перевода: Тексты и переводы */
+"QuranTranslationControllerTitle" = "Texts and translations";
+
+/* Название транслитерации: Фонетическая транслитерация по умолчанию */
+"Qurantranslitdefault" = "Phonetic transliteration by default";
+
+/* Заготовок секции настроек: ОЗВУЧЕННЫЕ ТРАНСЛИТЕРАЦИИ */
+"QuranTranstilSectionTitle" = "VOICED TRANSLITERATION";
+
+/* Заготовок секции настроек: ПЕРЕВОДЫ */
+"QuranTranslationSectionTitle" = "TRANSLATIONS";
+
+/* Вопрос о загрузке транслит Корана: Эта озвученная транслитерация Корана еще не загружена. Вы хотите загрузить ее сейчас? */
+"QuranQuestionLoadTranslit" = "This sounded transliteration of the Quran is not already loaded. You want to download it now?";
+
+/* Вопрос о загрузке перевода Корана: Этот перевод Корана еще не загружен. Вы хотите загрузить его сейчас? */
+"QuranQuestionLoadTranslation" = "This translation of the Quran is not already loaded. You want to download it now?";
+
+/* Вопрос об удаленении загруженного транслита Корана: Вы хотите удалить этот перевод Корана (%@)? */
+"QuranQuestionDeleteTranslit" = "You want to delete this sounded a transliteration of the Quran (%@)?";
+
+/* Вопрос об удаленении загруженного перевода Корана: Вы хотите удалить этот перевод Корана (%@)? */
+"QuranQuestionDeleteTransation" = "You want to remove this translation of the Quran (%@)?";
+
+/* Заголовок контрола настроек арабского текста: Настройка арабского текста */
+"QuranArabicControllerTitle" = "Setting the Arabic text";
+
+/* Вопрос о загрузке арабского текста Корана: Этот арабский текст Корана еще не загружен. Вы хотите загрузить его сейчас? */
+"QuranQuestionLoadArabic" = "This Arabic text of the Quran is not already loaded. You want to download it now?";
+
+/* Вопрос об удаленении загруженного арабского текста Корана: Вы хотите удалить этот арабский текст Корана (%@)? */
+"QuranQuestionDeleteArabic" = "You want to delete this Arabic text of the Koran (%@)?";
+
+/* Предупреждение о необходимости первоначальной настройки:  Необходимо произвести первоначальную настройку Корана */
+"QuranNeedSettings" = "Necessary to make the initial setup of the Quran.";
+
+/* Обозначение последней прочитанной суры: Последняя позиция чтения */
+"QuranLastRead" = "Last read position";
+
+/* Заголовок панели: Пролистывайте до предыдущей суры */
+"QuranPreviousSuraTitle" = "Flick back to the previous Sura";
+
+/* Подзаголовок панели: Продолжайте движение вниз для смены суры  */
+"QuranPreviousSuraSubTitle" = "Continue down to change the Suras";
+
+/* Заголовок панели: Пролистывайте до следующей суры */
+"QuranNextSuraTitle" = "Flick to the next Sura";
+
+/* Подзаголовок панели: Продолжайте движение вверх для смены суры  */
+"QuranNextSuraSubTitle" = "Continue up to change the Suras";
+
+/* Подзаголовок панели: Отпустите для смены суры */
+"QuranReleaseSuraSubTitle" = "Release to change the Suras";
+
+/* Пункт контекстного меню: Просмотрено */
+"QuranMenuViewTitle" = "Seen";
+
+/* Пункт контекстного меню: Избранное */
+"QuranMenuFavoriteTitle" = "Favorite";
+
+/* Пункт контекстного меню: Примечание */
+"QuranMenuNoticeTitle" = "Notice";
+
+/* Пункт контекстного меню: Воспроизвести */
+"QuranMenuPlayTitle" = "Play";
+
+/* Вопрос: У вас есть не сохраненные изменения, вы хотите отказаться от них? */
+"QuranNoiticeQuestion" = "You have not saved changes, you want to give them up?";
+
+/* Заголовок: Подтверждение */
+"ConfirmationTitle" = "Confirmation";
+
+/* Пункт меню: Выделение цветом */
+"HighlightingMenuItem" = "Highlighting";
+
+/* Сообщение: Данные успешно загружены. */
+"SuccessfullyLoadedMessage" = "The data was successfully loaded.";
+
+/* Пункт меню: Джуз */
+"QuranRearJuz" = "Juz";
+
+/* Пункт меню: Просмотрено */
+"QuranRearView" = "Seen";
+
+/* Пункт меню: Избранные */
+"QuranRearFavorite" = "Favorites";
+
+/* Пункт меню: Примечания */
+"QuranRearNotice" = "Notes";
+
+/* Пункт меню: Выделение */
+"QuranRearMarkColor" = "Highlighting";
+
+/* Наименование: Джуз */
+"JuzName" = "Juz";
+
+/* Сообшение: Сообщение не было отправлено */
+"MessageNotSendText" = "The message was not sent";
+
+/* Заголовок секции: ЧТЕНИЯ */
+"QuranReadSectionTitle1" = "RECITATION";
+
+/* Заголовок секции: ОПЦИИ ВОСПРОИЗВЕДЕНИЯ АУДИОЗАПИСИ */
+"QuranReadSectionTitle2" = "AUDIO PLAYBACK OPTIONS";
+
+/* Название строки: Авто прокрутка */
+"QuranReadAutoScrollItem" = "Auto-scroll";
+
+/* Название строки: Не гасить экран */
+"QuranReadKeepScreenItem" = "Keep screen on while reading";
+
+/* Название строки: В конце суры */
+"QuranReadEndSura" = "At the end of a Sura";
+
+/* Название строки: Повторять каждый аят */
+"QuranReadRepeatVerse" = "Repeat each verse";
+
+/* Название опции: Остановить воспроизведение */
+"QuranSoundEndActionStop" = "Stop playing";
+
+/* Название опции: Воспроизводить следующую суру */
+"QuranSoundEndActionNext" = "Play the next Sura";
+
+/* Название опции: Повторить суру */
+"QuranSoundEndActionRepeat" = "Repeat the Sura";
+
+/* Название опции: Никогда */
+"QuranSoundRepeatNever" = "Never";
+
+/* Название опции: 1 раз */
+"HBQuranSoundRepeatOne" = "1 time";
+
+/* Название опции: 2 раза */
+"HBQuranSoundRepeatTwo" = "2 times";
+
+/* Название опции: 3 раза */
+"HBQuranSoundRepeatThree" = "3 times";
+
+/* Название опции: Бесконечно */
+"HBQuranSoundRepeatEndlessly" = "Indefinitely";
+
+/* Настройки корана пункт: Аудио чтение */
+"QuranSettingsRecitationTitle" = "Audio recitation";
+
+/* Сообщение: Загрузка аудио аята */
+"QuranAudioAyaLoad" = "Download audio verse";
+
+/* Кнопка Закрыть  */
+"ButtonClose" = "Close";
+
+/* Отправка сообщения */
+"Sending" = "Sending";
+
+/* Мегабайты */
+"SizeMBText" = "MB";
+
+/* Статус: Скачать */
+"QuranLoadStateLoadText" = "Load";
+
+/* Статус: Пауза */
+"QuranLoadStatePauseText" = "Pause";
+
+/* Статус: Загрузка */
+"QuranLoadStateLoadingText" = "Loading";
+
+/* Статус: Распаковка */
+"QuranLoadStateUnpackingText" = "Unpacking";
+
+/* Статус: Ошибка загрузки */
+"QuranLoadStateErrorText" = "Error loading";
+
+/* Статус: Загружено */
+"QuranLoadStateLoadedText" = "Loaded";
+
+/* Пояснение к ошибке загрузки: Попробуйте повторить позже */
+"QuranLoadErrorDescription" = "Please try again later";
+
+/* Заголовок секции: ЧТЕНИЯ */
+"QuranReadSectionTitle1" = "RECITATION";
+
+/* Заголовок секции: ОПЦИИ ВОСПРОИЗВЕДЕНИЯ АУДИОЗАПИСИ */
+"QuranReadSectionTitle2" = "AUDIO PLAYBACK OPTIONS";
+
+/* Название строки: Авто прокрутка */
+"QuranReadAutoScrollItem" = "Auto-scroll";
+
+/* Название строки: Не гасить экран */
+"QuranReadKeepScreenItem" = "Keep screen on while reading";
+
+/* Название строки: В конце суры */
+"QuranReadEndSura" = "At the end of a Sura";
+
+/* Название строки: Повторять каждый аят */
+"QuranReadRepeatVerse" = "Repeat each verse";
+
+/* Название опции: Остановить воспроизведение */
+"QuranSoundEndActionStop" = "Stop playing";
+
+/* Название опции: Воспроизводить следующую суру */
+"QuranSoundEndActionNext" = "Play the next Sura";
+
+/* Название опции: Повторить суру */
+"QuranSoundEndActionRepeat" = "Repeat the Sura";
+
+/* Название опции: Никогда */
+"QuranSoundRepeatNever" = "Never";
+
+/* Название опции: 1 раз */
+"HBQuranSoundRepeatOne" = "1 time";
+
+/* Название опции: 2 раза */
+"HBQuranSoundRepeatTwo" = "2 times";
+
+/* Название опции: 3 раза */
+"HBQuranSoundRepeatThree" = "3 times";
+
+/* Название опции: Бесконечно */
+"HBQuranSoundRepeatEndlessly" = "Indefinitely";
+
+/* Настройки корана пункт: Аудио чтение */
+"QuranSettingsRecitationTitle" = "Audio recitation";
+
+/* Сообщение: Загрузка аудио аята */
+"QuranAudioAyaLoad" = "Download audio verse";
+
+/* Сообщение об ошибке: Интернет недоступен */
+"NetNotReachableError" = "The Internet is not available";
+
+/* Предлог: 2% из X */
+"PercentOffAllText" = "off";
+
+/* Заголовок: Настройки */
+"SettingsTitle" = "Settings";
